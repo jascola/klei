@@ -1,0 +1,12 @@
+[00:01:04]: [Join Announcement] 清风洛水
+[00:02:47]: [Join Announcement] 小鲁班快活啊
+[00:28:35]: [Skin Announcement] 清风洛水 legs_pants_basic_black_scribble
+[00:40:27]: [Skin Announcement] 小鲁班快活啊 body_polo_pink_hibiscus
+[00:58:08]: [Leave Announcement] 小鲁班快活啊
+[00:59:36]: [Join Announcement] 小鲁班快活啊
+[00:59:56]: [Leave Announcement] 小鲁班快活啊
+[01:00:57]: [Join Announcement] 小鲁班快活啊
+[01:43:34]: [Skin Announcement] 清风洛水 legs_checkered_pleats_grey_slate
+[02:03:25]: [Skin Announcement] 小鲁班快活啊 body_buttons_pink_hibiscus
+[02:08:12]: [Leave Announcement] 小鲁班快活啊
+[02:08:51]: [Leave Announcement] 清风洛水

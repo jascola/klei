@@ -2,36 +2,7 @@ KLEI     1 return {
   last_used_slot=1,
   slots={
     {
-      enabled_mods={
-        ["workshop-100010058"]={
-          configuration_options={ DFV_Language="CN", DFV_MinimalMode="default" },
-          enabled=true 
-        },
-        ["workshop-100010059"]={ configuration_options={  }, enabled=true },
-        ["workshop-100010062"]={
-          configuration_options={
-            divider=5,
-            random_health_value=0,
-            random_range=0,
-            send_unknwon_prefabs=true,
-            show_type=0,
-            unknwon_prefabs=1,
-            use_blacklist=true 
-          },
-          enabled=true 
-        },
-        ["workshop-100010063"]={ configuration_options={ MAXSTACKSIZE=99 }, enabled=true },
-        ["workshop-2199027653598511647"]={
-          configuration_options={
-            amount_of_numbers="default",
-            display_mode="waving",
-            dmg_only="on",
-            show_decimal_points="no" 
-          },
-          enabled=true 
-        },
-        ["workshop-2199027653598516141"]={ configuration_options={ ChineseLanguage=0, q=0 }, enabled=true } 
-      },
+      enabled_mods={  },
       server={
         clan={ admin=false, id="", only=false },
         description="",
@@ -44,9 +15,10 @@ KLEI     1 return {
         password="",
         privacy_type=1,
         pvp=false,
+        server_language="zhr",
         use_cluster_path=true 
       },
-      session_id="",
+      session_id="479B12A363A4495E",
       world={
         options={
           {
@@ -163,69 +135,6 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             required_setpieces={ "Sculptures_1", "Maxwell5" },
-            substitutes={  },
-            version=4 
-          },
-          {
-            background_node_range={ 0, 1 },
-            desc="探查洞穴…… 一起！",
-            hideminimap=false,
-            id="DST_CAVE",
-            location="cave",
-            max_playlist_position=999,
-            min_playlist_position=0,
-            name="洞穴",
-            numrandom_set_pieces=0,
-            override_level_string=false,
-            overrides={
-              banana="default",
-              bats="default",
-              berrybush="default",
-              boons="default",
-              branching="default",
-              bunnymen="default",
-              cave_ponds="default",
-              cave_spiders="default",
-              cavelight="default",
-              chess="default",
-              disease_delay="default",
-              earthquakes="default",
-              fern="default",
-              fissure="default",
-              flint="default",
-              flower_cave="default",
-              grass="default",
-              layout_mode="RestrictNodesByKey",
-              lichen="default",
-              liefs="default",
-              loop="default",
-              marshbush="default",
-              monkey="default",
-              mushroom="default",
-              mushtree="default",
-              prefabswaps_start="default",
-              reeds="default",
-              regrowth="default",
-              roads="never",
-              rock="default",
-              rocky="default",
-              sapling="default",
-              season_start="default",
-              slurper="default",
-              slurtles="default",
-              start_location="caves",
-              task_set="cave_default",
-              tentacles="default",
-              touchstone="default",
-              trees="default",
-              weather="default",
-              world_size="default",
-              wormattacks="default",
-              wormhole_prefab="tentacle_pillar",
-              wormlights="default",
-              worms="default" 
-            },
-            required_prefabs={ "multiplayer_portal" },
             substitutes={  },
             version=4 
           } 
