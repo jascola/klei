@@ -1,0 +1,343 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 35%
+	Available Physical Memory: 10502m/16333m
+	Available Page File: 7519m/17357m
+	Available Virtual Memory: 3959m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 32m
+	Working Set Size: 32m
+	Quota Peak Page Pool Usage: 246k
+	Quota Page Pool Usage: 242k
+	Quota Peak Non Paged Pool Usage:20k
+	Quota Non Paged Pool Usage: 19k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 393281
+[00:00:00]: Current time: Wed Feb 19 18:12:46 2020
+
+[00:00:00]: Don't Starve Together: 393281 WIN32_STEAM
+[00:00:00]: Build Date: 4941
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:01]: Steam AppBuildID: 4645460
+[00:00:01]: ....Done
+[00:00:01]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/254076664/ 
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: THREAD - started 'GAClient' (4912)
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:0.48
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (9144)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application E:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_steam.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: THREAD - started 'StreamInput' (8052)
+[00:00:01]: loaded ping_cache
+[00:00:01]: Offline user ID: OU_76561198214342392
+[00:00:01]: SteamID: 76561198214342392
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 专业版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      AMD Ryzen 5 3600X 6-Core Processor             
+    manufacturer              AuthenticAMD
+    clockSpeed                3800
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1660 Ti
+    driverDate                20190724000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             26.21.14.3200
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: WindowManager::Initialize
+[00:00:01]: CreateWindow: Requesting 1280,720 - 5/6/5 - -1/-1/-1 - 0
+[00:00:02]: CreateEGLContext: 12 configs found
+[00:00:02]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:02]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:02]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:02]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:02]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:02]:      5: 5/5/5 -  0/16/ 0 - 0
+[00:00:02]:      6: 5/5/5 -  0/24/ 0 - 0
+[00:00:02]:      7: 5/5/5 -  0/24/ 8 - 0
+[00:00:02]:      8: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:02]:      9: 8/8/8 -  8/16/ 0 - 0
+[00:00:02]:     10: 8/8/8 -  8/24/ 0 - 0
+[00:00:02]:     11: 8/8/8 -  8/24/ 8 - 0
+[00:00:02]: RestoreWindowPosition
+[00:00:02]:    Saved Client Pos (294 x 235)
+[00:00:02]:    Adjusted Window Pos (286 x 204)
+[00:00:02]: EnsureWindowOnScreen
+[00:00:02]:    All good.
+[00:00:02]: SetCommonDefaultControlMapping
+[00:00:02]:    X-pos and Y-pos available (Left Stick)
+[00:00:02]:    Z-pos and Z-rot available (Right Stick)
+[00:00:02]: GLInfo
+[00:00:02]: ~~~~~~
+[00:00:02]: THREAD - started 'WindowsInputManager' (12732)
+[00:00:02]: GL_VENDOR: Google Inc.
+[00:00:02]: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 1660 Ti)
+[00:00:02]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:02]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:02]: OpenGL extensions (19, 19):
+[00:00:02]: GL_ANGLE_depth_texture
+[00:00:02]: GL_ANGLE_framebuffer_blit
+[00:00:02]: GL_ANGLE_framebuffer_multisample
+[00:00:02]: GL_ANGLE_instanced_arrays
+[00:00:02]: GL_ANGLE_pack_reverse_row_order
+[00:00:02]: GL_ANGLE_texture_compression_dxt3
+[00:00:02]: GL_ANGLE_texture_compression_dxt5
+[00:00:02]: GL_ANGLE_texture_usage
+[00:00:02]: GL_ANGLE_translated_shader_source
+[00:00:02]: GL_EXT_read_format_bgra
+[00:00:02]: GL_EXT_robustness
+[00:00:02]: GL_EXT_texture_compression_dxt1
+[00:00:02]: GL_EXT_texture_format_BGRA8888
+[00:00:02]: GL_EXT_texture_storage
+[00:00:02]: GL_OES_get_program_binary
+[00:00:02]: GL_OES_packed_depth_stencil
+[00:00:02]: GL_OES_rgb8_rgba8
+[00:00:02]: GL_OES_standard_derivatives
+[00:00:02]: GL_OES_texture_npot
+[00:00:02]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:02]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:02]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:02]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:02]: GL_MAX_VARYING_VECTORS = 10
+[00:00:02]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:02]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:02]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:02]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:02]: 4 compressed texture formats
+[00:00:02]: texture format 0x83f0
+[00:00:02]: texture format 0x83f1
+[00:00:02]: texture format 0x83f2
+[00:00:02]: texture format 0x83f3
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:03]: GameSpecific initialize: Okay
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:04]:   taskgrouplist:	default	联机版	
+[00:00:04]:   taskgrouplist:	classic	经典	
+[00:00:04]:   taskgrouplist:	cave_default	地下	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence.
+	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences loaded server_preferences	2	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: Could not load saveindex	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:10]: 	Load FE	
+[00:00:11]: 	Load FE: done	
+[00:00:11]: THREAD - started 'FilesExistAsyncThread' (9120)
+[00:00:11]: FilesExistAsyncThread started (14727 files)...
+[00:00:11]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/254076664/client_save/blocklist.txt (Failure)
+[00:00:11]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/254076664/client_save/adminlist.txt (Failure)
+[00:00:11]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/254076664/client_save/whitelist.txt (Failure)
+[00:00:11]: [MOTD] Downloading info from	https://motd.klei.com/?game=dst&platform=STEAM&locale=CN&lang=schinese&user=76561198214342392	
+[00:00:11]: SimLuaProxy::QueryServer()
+[00:00:11]: Check for write access: TRUE
+[00:00:11]: Check for read access: TRUE
+[00:00:11]: ModIndex: Load sequence finished successfully.	
+[00:00:11]: Reset() returning
+[00:00:14]: [Steam] Auth Session Ticket requested...
+[00:00:14]: [Steam] Got Auth Session Ticket
+[00:00:14]: ... FilesExistAsyncThread complete
+[00:00:14]: [MOTD] Downloading image for box1
+[00:00:17]: [200] Account Communication Success (3)
+[00:00:17]: Logging in as KU_qCOtogFI
+[00:00:29]: saved APP:Klei//DoNotStarveTogether/254076664/client_save/pricing_cache
+[00:00:29]: There is no active event to get the status of.
+[00:00:31]: loaded inventory_cache_prod
+[00:00:37]: saved APP:Klei//DoNotStarveTogether/254076664/client_save/inventory_cache_prod
+[00:00:37]: saved APP:Klei//DoNotStarveTogether/254076664/client_save/inventory_cache_prod_sig
+[00:00:41]: [MOTD] Downloading image for box2
+[00:00:43]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_qCOtogFI","Modified":1582107213.0382857,"ItemID":867760098659118695}
+
+[00:00:51]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_qCOtogFI","Modified":1582107220.4766877,"ItemID":867760098659118693}
+
+[00:00:55]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_qCOtogFI","Modified":1582107224.1821077,"ItemID":867760098659118686}
+
+[00:01:05]: Getting top mod details...
+[00:01:05]: Frontend-Unloading mod 'all'.	
+[00:01:05]: GOT top mod details...50
+[00:01:08]: [MOTD] Downloading image for box3
+[00:01:34]: FrontendLoadMod	workshop-367546858	
+[00:01:34]: Could not load mod_config_data/modconfiguration_workshop-367546858	
+[00:01:34]: Fontend-Loading mod: workshop-367546858 (中文语言包) Version:3.7.2	
+[00:01:34]: Mod: workshop-367546858 (中文语言包)	Loading modworldgenmain.lua	
+[00:01:34]: Mod: workshop-367546858 (中文语言包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:39]: [MOTD] Downloading image for box4
+[00:01:48]: Frontend-Unloading mod 'all'.	
+[00:01:49]: Frontend-Unloading mod 'all'.	
+[00:02:00]: Frontend-Unloading mod 'all'.	
+[00:02:03]: Getting top mod details...
+[00:02:03]: GOT top mod details...50
+[00:02:05]: FrontendLoadMod	workshop-367546858	
+[00:02:05]: Could not load mod_config_data/modconfiguration_workshop-367546858	
+[00:02:05]: Fontend-Loading mod: workshop-367546858 (中文语言包) Version:3.7.2	
+[00:02:05]: Mod: workshop-367546858 (中文语言包)	Loading modworldgenmain.lua	
+[00:02:05]: Mod: workshop-367546858 (中文语言包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:06]: Collecting garbage...
+[00:02:06]: lua_gc took 0.02 seconds
+[00:02:06]: ~ShardLuaProxy()
+[00:02:06]: ~cEventLeaderboardProxy()
+[00:02:06]: ~ItemServerLuaProxy()
+[00:02:06]: ~InventoryLuaProxy()
+[00:02:06]: ~NetworkLuaProxy()
+[00:02:06]: ~SimLuaProxy()
+[00:02:06]: ModWorkshop::CancelDownloads clearing all unfinished downloads
+[00:02:06]: lua_close took 0.04 seconds
+[00:02:06]: ReleaseAll
+[00:02:06]: ReleaseAll Finished
+[00:02:06]: cGame::StartPlaying
+[00:02:06]: LOADING LUA
+[00:02:06]: DoLuaFile scripts/main.lua
+[00:02:06]: DoLuaFile loading buffer scripts/main.lua
+[00:02:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:02:07]:   taskgrouplist:	default	联机版	
+[00:02:07]:   taskgrouplist:	classic	经典	
+[00:02:07]:   taskgrouplist:	cave_default	地下	
+[00:02:07]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:02:07]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:02:07]: running main.lua
+	
+[00:02:07]: loaded modindex	
+[00:02:07]: ModIndex: Beginning normal load sequence.
+	
+[00:02:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-367546858	
+[00:02:07]: Could not load mod_config_data/modconfiguration_workshop-367546858	
+[00:02:07]: Loading mod: workshop-367546858 (中文语言包) Version:3.7.2	
+[00:02:07]: Mod: workshop-367546858 (中文语言包)	Loading modworldgenmain.lua	
+[00:02:07]: Mod: workshop-367546858 (中文语言包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:07]: Mod: workshop-367546858 (中文语言包)	Loading modmain.lua	
+[00:02:07]: [Chinses] 加载贴图翻译！	
+[00:02:07]: Translator:LoadPOFile - loading file: ../mods/workshop-367546858/DST_chs.po	
+[00:02:08]: [Chinses] 据STEAM语言加载简体翻译成功！	
+[00:02:08]: [Chinese] 检测到小型纹理功能！	
+[00:02:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:02:09]: LOADING LUA SUCCESS
+[00:02:09]: PlayerDeaths could not load morgue	
+[00:02:09]: PlayerHistory could not load player_history	
+[00:02:09]: ServerPreferences loaded server_preferences	2	
+[00:02:09]: bloom_enabled	false	
+[00:02:09]: Could not load saveindex	
+[00:02:09]: OnFilesLoaded()	
+[00:02:09]: OnUpdatePurchaseStateComplete	
+[00:02:09]: Klump load on boot started.	
+[00:02:09]: Klump files loaded: 	0	
+[00:02:09]: 	Unload BE	
+[00:02:09]: Could not unload undefined prefab (yotc_shrinecarrat)
+[00:02:09]: 	Unload BE done	
+[00:02:10]: Mod: workshop-367546858 (中文语言包)	Registering prefabs	
+[00:02:10]: Mod: workshop-367546858 (中文语言包)	  Registering default mod prefab	
+[00:02:11]: 	Load FE	
+[00:02:11]: 	Load FE: done	
+[00:02:11]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/254076664/client_save/blocklist.txt (Failure)
+[00:02:11]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/254076664/client_save/adminlist.txt (Failure)
+[00:02:11]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/254076664/client_save/whitelist.txt (Failure)
+[00:02:11]: [MOTD] Downloading info from	https://motd.klei.com/?game=dst&platform=STEAM&locale=CN&lang=schinese&user=76561198214342392	
+[00:02:11]: SimLuaProxy::QueryServer()
+[00:02:11]: Check for write access: TRUE
+[00:02:11]: Check for read access: TRUE
+[00:02:11]: ModIndex: Load sequence finished successfully.	
+[00:02:11]: Reset() returning
+[00:02:16]: CURL ERROR: (motd.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:02:16]: [MOTD] Failed To Get MOTD Info from 'https://motd.klei.com/?game=dst&platform=STEAM&locale=CN&lang=schinese&user=76561198214342392' due to 0. Retrying (4).	
+[00:02:18]: [200] Account Communication Success (6)
+[00:02:18]: Received (KU_qCOtogFI) from TokenPurpose
+[00:02:18]: [Steam] Auth Session Ticket requested...
+[00:02:18]: [Steam] Got Auth Session Ticket
+[00:02:18]: [MOTD] Downloading info from	https://motd.klei.com/?game=dst&platform=STEAM&locale=CN&lang=schinese&user=76561198214342392	
+[00:02:18]: SimLuaProxy::QueryServer()
+[00:02:19]: There is no active event to get the status of.
+[00:02:19]: loaded inventory_cache_prod
+[00:02:23]: [MOTD] Downloading image for box1
+[00:02:24]: saved APP:Klei//DoNotStarveTogether/254076664/client_save/inventory_cache_prod
+[00:02:24]: saved APP:Klei//DoNotStarveTogether/254076664/client_save/inventory_cache_prod_sig
+[00:03:15]: [MOTD] Downloading image for box2
+[00:03:47]: [MOTD] Downloading image for box3
+[00:04:26]: [MOTD] Downloading image for box4
+[00:05:55]: CURL ERROR: (ds-motd.s3.amazonaws.com) Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:05:55]: [MOTD] Downloading image for box5
+[00:07:04]: [MOTD] Downloading image for box6
+[00:07:08]: ### Error: Leaked entities in the frontend.	147	
+[00:07:08]: 100025	CancelTipWidget	true	false	100025 - 	
+[00:07:08]: 100001	screenroot	true	false	100001 - 	
+[00:07:08]: 100002	overlayroot	true	false	100002 - 	
+[00:07:08]: 100003	Text	true	false	100003 - 	
+[00:07:08]: 100018	LoadingWidget	true	false	100018 - 	
+[00:07:09]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:07:16]: ### Error: Leaked entities in the frontend.	221	
+[00:07:16]: 100025	CancelTipWidget	true	false	100025 - 	
+[00:07:16]: 100001	screenroot	true	false	100001 - 	
+[00:07:16]: 100002	overlayroot	true	false	100002 - 	
+[00:07:16]: 100003	Text	true	false	100003 - 	
+[00:07:16]: 100018	LoadingWidget	true	false	100018 - 	
+[00:07:20]: Getting display mode: Querying display 1 [of 1]
+[00:07:20]: 	\: 1920, 1080, 60
+[00:07:47]: ModWorkshop::CancelDownloads clearing all unfinished downloads
+[00:07:51]: Friends are currently playing in 0 games(s)!
+[00:07:51]: You belong to 0 clan(s)!
+[00:07:51]: Downloaded server listings - chunk 0 (Sing): 5328 filtered completed: 4282
+[00:07:53]: Downloaded server listings - chunk 1 (US): 1440 filtered completed: 5350
+[00:07:56]: Downloaded server listings - chunk 2 (EU): 1482 filtered completed: 6446
+[00:08:00]: Downloaded server listings - chunk 3 (China): 269 filtered completed: 6704
+[00:08:02]: Downloaded server listings - chunk 4: 171 filtered completed: 6875
+[00:08:13]: [MOTD] Failed to download image: 	box4	https://ds-motd.s3.amazonaws.com/converted/yotc/yotc.tex	
+[00:08:13]: [MOTD] Failed to download (1) MOTD images. Remaining retries: 1.	
+[00:08:14]: [MOTD] Downloading image for box4
+[00:08:16]: Getting top mod details...
+[00:08:16]: Frontend-Unloading mod 'all'.	
+[00:08:16]: GOT top mod details...50
+[00:08:19]: CURL ERROR: (ds-motd.s3.amazonaws.com) Connection timed out after 5078 milliseconds
+[00:08:19]: [MOTD] Failed to download image: 	box4	https://ds-motd.s3.amazonaws.com/converted/yotc/yotc.tex	
+[00:08:19]: [MOTD] Failed to download (1) MOTD images. Using default image.	
+[00:08:19]: [MOTD] Done Loading.	
+[00:08:20]: Friends are currently playing in 0 games(s)!
+[00:08:20]: You belong to 0 clan(s)!
+[00:08:20]: Downloaded server listings - chunk 0 (Sing): 5314 filtered completed: 4272

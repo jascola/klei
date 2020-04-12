@@ -1,0 +1,742 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 31%
+	Available Physical Memory: 11236m/16333m
+	Available Page File: 9362m/17357m
+	Available Virtual Memory: 3895m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 61m
+	Working Set Size: 12m
+	Quota Peak Page Pool Usage: 319k
+	Quota Page Pool Usage: 316k
+	Quota Peak Non Paged Pool Usage:46k
+	Quota Non Paged Pool Usage: 45k
+	Page File Usage: 36m
+	Peak Page File Usage: 41m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 402247
+[00:00:01]: Current time: Sun Apr 12 15:23:15 2020
+
+[00:00:01]: Don't Starve Together: 402247 WIN32_RAIL
+[00:00:01]: Build Date: 5036
+[00:00:01]: Mode: 32-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: [Rail] Initializing Rail (2000004)
+[00:00:01]: [Rail] Rail SDK version 1.9.11.0
+[00:00:01]: ....Done
+[00:00:01]: PersistUserStorage is now APP:Klei//DoNotStarveTogetherRail/76561197971398001/ 
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: THREAD - started 'GAClient' (10068)
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:0.52
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 4
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'Ping Job Thread' (14216)
+[00:00:01]: Authorized application E:\Program Files (x86)\WeGameApps\rail_apps\
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: loaded ping_cache
+[00:00:01]: Offline user ID: RU_76561197971398001
+[00:00:01]: THREAD - started 'StreamInput' (13656)
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 专业版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      AMD Ryzen 5 3600X 6-Core Processor             
+    manufacturer              AuthenticAMD
+    clockSpeed                3800
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1660 Ti
+    driverDate                20190724000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             26.21.14.3200
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: WindowManager::Initialize
+[00:00:01]: CreateWindow: Requesting 1920,1017 - 5/6/5 - -1/-1/-1 - 0
+[00:00:01]: CreateEGLContext: 12 configs found
+[00:00:01]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:01]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:01]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:01]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:01]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:01]:      5: 5/5/5 -  0/16/ 0 - 0
+[00:00:01]:      6: 5/5/5 -  0/24/ 0 - 0
+[00:00:01]:      7: 5/5/5 -  0/24/ 8 - 0
+[00:00:01]:      8: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:01]:      9: 8/8/8 -  8/16/ 0 - 0
+[00:00:01]:     10: 8/8/8 -  8/24/ 0 - 0
+[00:00:01]:     11: 8/8/8 -  8/24/ 8 - 0
+[00:00:01]: RestoreWindowPosition
+[00:00:01]:    Saved Client Pos (0 x 23)
+[00:00:01]:    Adjusted Window Pos (-8 x -8)
+[00:00:01]: EnsureWindowOnScreen
+[00:00:01]:    All good.
+[00:00:02]: GLInfo
+[00:00:02]: ~~~~~~
+[00:00:02]: GL_VENDOR: Google Inc.
+[00:00:02]: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 1660 Ti)
+[00:00:02]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:02]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:02]: OpenGL extensions (19, 19):
+[00:00:02]: GL_ANGLE_depth_texture
+[00:00:02]: GL_ANGLE_framebuffer_blit
+[00:00:02]: GL_ANGLE_framebuffer_multisample
+[00:00:02]: GL_ANGLE_instanced_arrays
+[00:00:02]: GL_ANGLE_pack_reverse_row_order
+[00:00:02]: GL_ANGLE_texture_compression_dxt3
+[00:00:02]: GL_ANGLE_texture_compression_dxt5
+[00:00:02]: GL_ANGLE_texture_usage
+[00:00:02]: GL_ANGLE_translated_shader_source
+[00:00:02]: GL_EXT_read_format_bgra
+[00:00:02]: GL_EXT_robustness
+[00:00:02]: GL_EXT_texture_compression_dxt1
+[00:00:02]: GL_EXT_texture_format_BGRA8888
+[00:00:02]: GL_EXT_texture_storage
+[00:00:02]: GL_OES_get_program_binary
+[00:00:02]: GL_OES_packed_depth_stencil
+[00:00:02]: GL_OES_rgb8_rgba8
+[00:00:02]: GL_OES_standard_derivatives
+[00:00:02]: GL_OES_texture_npot
+[00:00:02]: THREAD - started 'WindowsInputManager' (13772)
+[00:00:02]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:02]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:02]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:02]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:02]: GL_MAX_VARYING_VECTORS = 10
+[00:00:02]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:02]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:02]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:02]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:02]: 4 compressed texture formats
+[00:00:02]: texture format 0x83f0
+[00:00:02]: texture format 0x83f1
+[00:00:02]: texture format 0x83f2
+[00:00:02]: texture format 0x83f3
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:03]: GameSpecific initialize: Okay
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:04]:   taskgrouplist:	default	联机版	
+[00:00:04]:   taskgrouplist:	classic	经典	
+[00:00:04]:   taskgrouplist:	cave_default	地下	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence.
+	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010057	
+[00:00:04]: Loading mod: workshop-100010057 (Combined Status) Version:1.6.14.h.0.2	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:00:04]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:00:04]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:00:04]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:00:04]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: AppData writable: True.
+[00:00:08]: Documents writable: True.
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: PlayerDeaths loaded morgue	180	
+[00:00:08]: PlayerHistory loaded player_history (v2) len:450	
+[00:00:08]: ServerPreferences loaded server_preferences	2	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: loaded saveindex	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:11]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:00:11]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:00:11]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-100010057 (Combined Status)	Registering prefabs	
+[00:00:11]: Mod: workshop-100010057 (Combined Status)	  Registering default mod prefab	
+[00:00:11]: 	Load FE	
+[00:00:12]: 	Load FE: done	
+[00:00:12]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/blocklist.txt (Failure)
+[00:00:12]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/adminlist.txt (Failure)
+[00:00:12]: THREAD - started 'FilesExistAsyncThread' (9076)
+[00:00:12]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/whitelist.txt (Failure)
+[00:00:12]: FilesExistAsyncThread started (14920 files)...
+[00:00:12]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:12]: SimLuaProxy::QueryServer()
+[00:00:12]: Check for write access: TRUE
+[00:00:12]: Check for read access: TRUE
+[00:00:12]: ModIndex: Load sequence finished successfully.	
+[00:00:12]: Reset() returning
+[00:00:13]: [Rail] WARNING: Spent 151 milliseconds in rail calls in the last 1.00 seconds
+[00:00:13]:     RailLibrary::RailFireEvents: 0ms
+[00:00:16]: [MOTD] Done Loading.	
+[00:00:16]: ... FilesExistAsyncThread complete
+[00:00:24]: [Rail] Auth Session Ticket requested...
+[00:00:24]: [Rail] Session ticket acquired
+[00:00:25]: [200] Account Communication Success (3)
+[00:00:25]: Logging in as KU_3xJ72kaz
+[00:00:26]: There is no active event to get the status of.
+[00:00:26]: [Rail] IsOwnedDLC( 2001252 ) -- No
+[00:00:28]: loaded inventory_cache_prod
+[00:00:31]: saved APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/inventory_cache_prod
+[00:00:31]: saved APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/inventory_cache_prod_sig
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:00:51]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:05:08]: [SYSMEM]35% - PH:10614m/16333m PG:8490m/17357m VRT:2889m/4095m XM:0m
+[00:05:08]: [PRCMEM]PWS:702m WS:665m PPU:669k PU 645k PNU:163k NU:142k PF:663m PPF:703m
+[00:10:08]: [SYSMEM]36% - PH:10421m/16333m PG:8110m/17357m VRT:2891m/4095m XM:0m
+[00:10:08]: [PRCMEM]PWS:702m WS:666m PPU:669k PU 645k PNU:163k NU:140k PF:664m PPF:703m
+[00:13:07]: GetAccountURL: https://accounts.klei.com/Register/Accounts/?Game=DontStarveTogether&RailTicket=MQjRqJCIm4CA8AES0QEIhIl6EPG6p4WQgICIARgBIji0rzeaBhr7jbH8aDlpkvZrNTJNdOmCNbpnWgITBCxGAraJl1JTTPr5Lj19uRCkSFi25HvCFcduWSgAMAI6gAE6hRNENicqJIeWYvQZWriIagLhTZfIQZ52E4VMm1dIKNmWlHS7-yG8V_G3zMZUTMC9L8wJ6HnQB7Rzjn3sEsqzOydhBnBcFX-OPRM-NlpQNiS-qF9jN0j3xy535_FH9wvy7p63tbofR91-sjP_1Q5lbxAb9PTvEi1dilwX-7BBJygB&RailID=76561197971398001&RailPlatform=tgp&lang=zh
+[00:13:14]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:13:14]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:13:14]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:13:14]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:13:14]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:13:14]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:14]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:13:21]: OpenBox post body {"ItemID": 528394199043142075}
+[00:13:26]: [OpenBox_Complete Success:200] {"Error":false,"Items":[{"ItemID":753655934233717174,"ItemType":"FEET_WES_NATURE","Modified":1586676998.7738955,"Context":1},{"ItemID":753655934233717175,"ItemType":"BIRDCAGE_ROMANTIC","Modified":1586676999.0173342,"Context":1},{"ItemID":753655934233717176,"ItemType":"BODY_WAXWELL_NATURE","Modified":1586676999.2685552,"Context":1},{"ItemID":753655934233717172,"ItemType":"EMOJI_BATTLE","Modified":1586676998.5280235,"Context":1}]}
+
+[00:13:38]: OpenBox post body {"ItemID": 981863643444508523}
+[00:13:41]: [OpenBox_Complete Success:200] {"Error":false,"Items":[{"ItemID":608981547093977791,"ItemType":"HAND_WATHGRITHR_WRESTLER","Modified":1586677014.785579,"Context":1},{"ItemID":608981547093977793,"ItemType":"PROFILEFLAIR_PIGTOKEN_YOTP","Modified":1586677015.0109787,"Context":1},{"ItemID":608981547093977795,"ItemType":"EMOJI_BATTLE","Modified":1586677015.2339513,"Context":1},{"ItemID":608981547093977796,"ItemType":"HAND_WES_NATURE","Modified":1586677015.4653087,"Context":1}]}
+
+[00:13:53]: OpenBox post body {"ItemID": 677012716679261411}
+[00:13:57]: [OpenBox_Complete Success:200] {"Error":false,"Items":[{"ItemID":301291216854827515,"ItemType":"EMOJI_FIREPIT","Modified":1586677030.387697,"Context":1},{"ItemID":301291216854827516,"ItemType":"LOADING_WES_VICTORIAN","Modified":1586677030.641339,"Context":1},{"ItemID":301291216854827518,"ItemType":"PLAYERPORTRAIT_BG_ALTARSTATUE","Modified":1586677030.89077,"Context":1},{"ItemID":301291216854827520,"ItemType":"BODY_WEBBER_VICTORIAN","Modified":1586677031.1241271,"Context":1}]}
+
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:28]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:28]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture 'avatar_unknown.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:14:29]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:14:29]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:15:08]: [SYSMEM]37% - PH:10139m/16333m PG:7545m/17357m VRT:2621m/4095m XM:0m
+[00:15:08]: [PRCMEM]PWS:956m WS:933m PPU:721k PU 710k PNU:163k NU:160k PF:928m PPF:951m
+[00:19:09]: Collecting garbage...
+[00:19:09]: lua_gc took 0.03 seconds
+[00:19:09]: ~ShardLuaProxy()
+[00:19:09]: ~cEventLeaderboardProxy()
+[00:19:09]: ~ItemServerLuaProxy()
+[00:19:09]: ~InventoryLuaProxy()
+[00:19:09]: ~NetworkLuaProxy()
+[00:19:09]: ~SimLuaProxy()
+[00:19:09]: lua_close took 0.04 seconds
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:09]: CurlRequestManager::ClientThread::Main() complete
+[00:19:09]: HttpClient2 discarded 0 callbacks.
+[00:19:09]: [Rail] Shutting down Rail
+[00:19:11]: Shutting down
