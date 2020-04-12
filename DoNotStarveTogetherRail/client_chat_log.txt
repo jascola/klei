@@ -6,3 +6,7 @@
 [01:32:10]: [Join Announcement] 小鲁班快活啊
 [02:34:38]: [Skin Announcement] 小鲁班快活啊 body_buttons_pink_hibiscus
 [02:39:25]: [Leave Announcement] 小鲁班快活啊
+[02:43:59]: [Join Announcement] 小鲁班快活啊
+[02:44:52]: [Leave Announcement] 小鲁班快活啊
+[02:47:33]: [Join Announcement] 小鲁班快活啊
+[03:20:37]: [Leave Announcement] 小鲁班快活啊
