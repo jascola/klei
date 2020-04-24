@@ -1,13 +1,6 @@
-[00:03:16]: [Join Announcement] 砍你牛子
-[00:16:13]: [Join Announcement] 小鲁班快活啊
-[00:57:47]: [Death Announcement] 小鲁班快活啊 死于： 龙蝇. 他变成了可怕的鬼魂！
-[00:58:53]: [Resurrect Announcement] 小鲁班快活啊 被此人复活： 清风洛水.
-[01:07:12]: [Skin Announcement] 小鲁班快活啊 feet_wickerbottom_magma
-[01:10:19]: [Skin Announcement] 砍你牛子 legs_shorts_red_firehound
-[01:21:12]: [Death Announcement] 砍你牛子 死于： 恐怖尖嘴怪. 他变成了可怕的鬼魂！
-[01:22:25]: [Resurrect Announcement] 砍你牛子 被此人复活： 小鲁班快活啊.
-[02:27:09]: [Skin Announcement] 小鲁班快活啊 hand_webber_magma
-[02:27:28]: [Leave Announcement] 小鲁班快活啊
-[02:35:53]: [Skin Announcement] 砍你牛子 body_buttons_white_ghost
-[02:42:00]: [Death Announcement] 砍你牛子 死于： 驼鹿鹅幼崽. 他变成了可怕的鬼魂！
-[02:44:56]: [Resurrect Announcement] 砍你牛子 被此人复活： 清风洛水.
+[00:01:52]: [Announcement] 世界将在25秒后重新加载翻新。
+[00:01:57]: [Announcement] 世界将在20秒后重新加载翻新。
+[00:02:02]: [Announcement] 世界将在15秒后重新加载翻新。
+[00:02:07]: [Announcement] 世界将在10秒后重新加载翻新。
+[00:02:13]: [Announcement] 世界将在5秒后重新加载翻新。
+[00:02:17]: [Announcement] 重新载入世界中，翻新即将完成。

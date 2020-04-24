@@ -1,8 +1,0 @@
-[00:02:13]: [Join Announcement] 砍你牛子
-[00:06:06]: [Join Announcement] 小鲁班快活啊
-[00:06:07]: [Death Announcement] 砍你牛子 死于： 恐怖尖嘴怪. 她变成了可怕的鬼魂！
-[00:06:38]: [Leave Announcement] 小鲁班快活啊
-[00:09:19]: [Resurrect Announcement] 砍你牛子 被此人复活： 清风洛水.
-[00:10:52]: [Join Announcement] 小鲁班快活啊
-[00:12:17]: [Leave Announcement] 小鲁班快活啊
-[00:18:03]: [Join Announcement] 小鲁班快活啊

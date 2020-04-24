@@ -1,0 +1,3 @@
+[00:01:03]: [Join Announcement] 格斗之王大司马
+[00:05:14]: [Death Announcement] 格斗之王大司马 死于： 牦牛. 他变成了可怕的鬼魂！
+[00:05:16]: [Leave Announcement] 格斗之王大司马
