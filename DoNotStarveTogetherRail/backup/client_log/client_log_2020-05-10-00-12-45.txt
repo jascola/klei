@@ -1,0 +1,1390 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 30%
+	Available Physical Memory: 11404m/16333m
+	Available Page File: 9046m/17357m
+	Available Virtual Memory: 3899m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 99m
+	Working Set Size: 12m
+	Quota Peak Page Pool Usage: 272k
+	Quota Page Pool Usage: 269k
+	Quota Peak Non Paged Pool Usage:43k
+	Quota Non Paged Pool Usage: 42k
+	Page File Usage: 57m
+	Peak Page File Usage: 111m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 407551
+[00:00:00]: Current time: Mon May 04 21:07:29 2020
+
+[00:00:00]: Don't Starve Together: 407551 WIN32_RAIL
+[00:00:00]: Build Date: 5108
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.9.11.0
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogetherRail/76561197971398001/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (7976)
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: ProfileIndex:0.51
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 4
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (12712)
+[00:00:00]: Authorized application E:\Program Files (x86)\WeGameApps\rail_apps\
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: loaded ping_cache
+[00:00:00]: Offline user ID: RU_76561197971398001
+[00:00:00]: THREAD - started 'StreamInput' (17024)
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 专业版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      AMD Ryzen 5 3600X 6-Core Processor             
+    manufacturer              AuthenticAMD
+    clockSpeed                3800
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1660 Ti
+    driverDate                20190724000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             26.21.14.3200
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: WindowManager::Initialize
+[00:00:00]: CreateWindow: Requesting 1920,1017 - 5/6/5 - -1/-1/-1 - 0
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (4688)
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (13904)
+[00:00:01]: CreateEGLContext: 12 configs found
+[00:00:01]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:01]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:01]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:01]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:01]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:01]:      5: 5/5/5 -  0/16/ 0 - 0
+[00:00:01]:      6: 5/5/5 -  0/24/ 0 - 0
+[00:00:01]:      7: 5/5/5 -  0/24/ 8 - 0
+[00:00:01]:      8: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:01]:      9: 8/8/8 -  8/16/ 0 - 0
+[00:00:01]:     10: 8/8/8 -  8/24/ 0 - 0
+[00:00:01]:     11: 8/8/8 -  8/24/ 8 - 0
+[00:00:01]: RestoreWindowPosition
+[00:00:01]:    Saved Client Pos (0 x 23)
+[00:00:01]:    Adjusted Window Pos (-8 x -8)
+[00:00:01]: EnsureWindowOnScreen
+[00:00:01]:    All good.
+[00:00:02]: GLInfo
+[00:00:02]: ~~~~~~
+[00:00:02]: GL_VENDOR: Google Inc.
+[00:00:02]: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 1660 Ti)
+[00:00:02]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:02]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:02]: OpenGL extensions (19, 19):
+[00:00:02]: GL_ANGLE_depth_texture
+[00:00:02]: GL_ANGLE_framebuffer_blit
+[00:00:02]: GL_ANGLE_framebuffer_multisample
+[00:00:02]: GL_ANGLE_instanced_arrays
+[00:00:02]: GL_ANGLE_pack_reverse_row_order
+[00:00:02]: GL_ANGLE_texture_compression_dxt3
+[00:00:02]: GL_ANGLE_texture_compression_dxt5
+[00:00:02]: GL_ANGLE_texture_usage
+[00:00:02]: GL_ANGLE_translated_shader_source
+[00:00:02]: GL_EXT_read_format_bgra
+[00:00:02]: GL_EXT_robustness
+[00:00:02]: GL_EXT_texture_compression_dxt1
+[00:00:02]: GL_EXT_texture_format_BGRA8888
+[00:00:02]: GL_EXT_texture_storage
+[00:00:02]: GL_OES_get_program_binary
+[00:00:02]: GL_OES_packed_depth_stencil
+[00:00:02]: GL_OES_rgb8_rgba8
+[00:00:02]: GL_OES_standard_derivatives
+[00:00:02]: GL_OES_texture_npot
+[00:00:02]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:02]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:02]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:02]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:02]: GL_MAX_VARYING_VECTORS = 10
+[00:00:02]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:02]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:02]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:02]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:02]: THREAD - started 'WindowsInputManager' (776)
+[00:00:02]: 4 compressed texture formats
+[00:00:02]: texture format 0x83f0
+[00:00:02]: texture format 0x83f1
+[00:00:02]: texture format 0x83f2
+[00:00:02]: texture format 0x83f3
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:03]: GameSpecific initialize: Okay
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:04]:   taskgrouplist:	default	联机版	
+[00:00:04]:   taskgrouplist:	classic	经典	
+[00:00:04]:   taskgrouplist:	cave_default	地下	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence.
+	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010057	
+[00:00:04]: Loading mod: workshop-100010057 (Combined Status) Version:1.6.14.h.0.2	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010060	
+[00:00:04]: Loading mod: workshop-100010060 (Geometric Placement) Version:2.1.3	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:00:04]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:00:04]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:00:04]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:00:04]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010057 (Combined Status)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: Mod: workshop-100010060 (Geometric Placement)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010060 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010060 (Geometric Placement)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: AppData writable: True.
+[00:00:05]: Documents writable: True.
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:06]: PlayerDeaths loaded morgue	882	
+[00:00:06]: PlayerHistory loaded player_history (v2) len:446	
+[00:00:06]: ServerPreferences loaded server_preferences	2	
+[00:00:06]: bloom_enabled	false	
+[00:00:06]: loaded saveindex	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: Klump load on boot started.	
+[00:00:06]: Klump files loaded: 	0	
+[00:00:08]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:00:08]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:00:08]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-100010057 (Combined Status)	Registering prefabs	
+[00:00:08]: Mod: workshop-100010057 (Combined Status)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-100010060 (Geometric Placement)	Registering prefabs	
+[00:00:08]: Mod: workshop-100010060 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:08]: Mod: workshop-100010060 (Geometric Placement)	    buildgridplacer	
+[00:00:08]: Mod: workshop-100010060 (Geometric Placement)	  Registering default mod prefab	
+[00:00:08]: 	Load FE	
+[00:00:08]: 	Load FE: done	
+[00:00:08]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/blocklist.txt (Failure)
+[00:00:08]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/adminlist.txt (Failure)
+[00:00:08]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/whitelist.txt (Failure)
+[00:00:08]: THREAD - started 'FilesExistAsyncThread' (14676)
+[00:00:08]: FilesExistAsyncThread started (15641 files)...
+[00:00:08]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:08]: SimLuaProxy::QueryServer()
+[00:00:08]: Check for write access: TRUE
+[00:00:08]: Check for read access: TRUE
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:11]: ... FilesExistAsyncThread complete
+[00:00:13]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[00:00:13]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (4).	
+[00:00:15]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:15]: SimLuaProxy::QueryServer()
+[00:00:19]: [Rail] Auth Session Ticket requested...
+[00:00:19]: [Rail] Session ticket acquired
+[00:00:20]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[00:00:20]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (3).	
+[00:00:22]: [200] Account Communication Success (3)
+[00:00:22]: Logging in as KU_3xJ72kaz
+[00:00:22]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:22]: SimLuaProxy::QueryServer()
+[00:00:22]: There is no active event to get the status of.
+[00:00:22]: [Rail] IsOwnedDLC( 2001252 ) -- No
+[00:00:23]: loaded inventory_cache_prod
+[00:00:26]: loaded inventory_cache_prod
+[00:00:26]: WARNING! Invalid resource handle for atlas '../mods/workshop-100010057/images/avatars.xml', did you remember to load the asset?
+[00:00:26]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:00:26]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:00:27]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:00:29]: Frontend-Unloading mod 'all'.	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-2199027653598516141	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010063	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-2199027653598511647	
+[00:00:29]: FrontendLoadMod	workshop-100010058	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:29]: Fontend-Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:29]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:29]: FrontendLoadMod	workshop-100010059	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:29]: Fontend-Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:29]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:29]: FrontendLoadMod	workshop-2199027653598516141	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-2199027653598516141	
+[00:00:29]: Fontend-Loading mod: workshop-2199027653598516141 (YDJ DS) Version:1.0.9	
+[00:00:29]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-2199027653598516141 (YDJ DS)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:29]: FrontendLoadMod	workshop-100010063	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010063	
+[00:00:29]: Fontend-Loading mod: workshop-100010063 (叠加上限99) Version:1.62.h.0.1	
+[00:00:29]: Mod: workshop-100010063 (叠加上限99)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-100010063 (叠加上限99)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:29]: FrontendLoadMod	workshop-2199027653598511647	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-2199027653598511647	
+[00:00:29]: Fontend-Loading mod: workshop-2199027653598511647 (伤害显示) Version:0.72	
+[00:00:29]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-2199027653598511647 (伤害显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:29]: FrontendLoadMod	workshop-100010062	
+[00:00:29]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:29]: Fontend-Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:29]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:29]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:30]: TopModsCallback
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:00:30]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:00:31]: CURL ERROR: (s3.amazonaws.com) Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:00:31]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (2).	
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:00:31]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:32]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-2199027653598516141	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010063	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-2199027653598511647	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:32]: Setting lobby region to default: China
+[00:00:32]: [IPC] Signal 'DST_Master_Starting' created  #00001150
+[00:00:32]: [IPC] Clearing pending signals #00001150...
+[00:00:32]: [IPC] Registering handler for signal #00001150
+[00:00:32]: [IPC] Handle #00001150 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_WorldGen' created  #00001134
+[00:00:32]: [IPC] Clearing pending signals #00001134...
+[00:00:32]: [IPC] Registering handler for signal #00001134
+[00:00:32]: [IPC] Handle #00001134 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_Ready' created  #00000494
+[00:00:32]: [IPC] Clearing pending signals #00000494...
+[00:00:32]: [IPC] Registering handler for signal #00000494
+[00:00:32]: [IPC] Handle #00000494 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_ErrPort' created  #00000498
+[00:00:32]: [IPC] Clearing pending signals #00000498...
+[00:00:32]: [IPC] Registering handler for signal #00000498
+[00:00:32]: [IPC] Handle #00000498 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_ErrStartup' created  #00001184
+[00:00:32]: [IPC] Clearing pending signals #00001184...
+[00:00:32]: [IPC] Registering handler for signal #00001184
+[00:00:32]: [IPC] Handle #00001184 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_Kill' created  #00001180
+[00:00:32]: [IPC] Clearing pending signals #00001180...
+[00:00:32]: [IPC] Signal 'DST_Slave_Starting' created  #00001198
+[00:00:32]: [IPC] Clearing pending signals #00001198...
+[00:00:32]: [IPC] Registering handler for signal #00001198
+[00:00:32]: [IPC] Handle #00001198 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Slave_WorldGen' created  #00001194
+[00:00:32]: [IPC] Clearing pending signals #00001194...
+[00:00:32]: [IPC] Registering handler for signal #00001194
+[00:00:32]: [IPC] Handle #00001194 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Slave_Ready' created  #0000119C
+[00:00:32]: [IPC] Clearing pending signals #0000119C...
+[00:00:32]: [IPC] Registering handler for signal #0000119C
+[00:00:32]: [IPC] Handle #0000119C added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Slave_ErrPort' created  #000011A0
+[00:00:32]: [IPC] Clearing pending signals #000011A0...
+[00:00:32]: [IPC] Registering handler for signal #000011A0
+[00:00:32]: [IPC] Handle #000011A0 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Slave_ErrStartup' created  #000011A4
+[00:00:32]: [IPC] Clearing pending signals #000011A4...
+[00:00:32]: [IPC] Registering handler for signal #000011A4
+[00:00:32]: [IPC] Handle #000011A4 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Slave_Kill' created  #000011A8
+[00:00:32]: [IPC] Clearing pending signals #000011A8...
+[00:00:33]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:33]: SimLuaProxy::QueryServer()
+[00:00:39]: [IPC] Received DST_Slave Starting signal !
+[00:00:39]: [IPC] Received DST_Master Starting signal !
+[00:00:39]: CURL ERROR: (s3.amazonaws.com) Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:00:39]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (1).	
+[00:00:41]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:41]: SimLuaProxy::QueryServer()
+[00:00:46]: CURL ERROR: (s3.amazonaws.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:00:46]: [MOTD] Failed To Get MOTD Info. Too many retries.	
+[00:00:46]: [MOTD] Done Loading.	
+[00:00:56]: [IPC] Received DST_Master Ready signal !
+[00:01:03]: [IPC] Received DST_Slave Ready signal !
+[00:01:03]: [Connect] Init client connection to 127.0.0.1|10999
+[00:01:03]: [Connect] PendingConnection::Reset(true)
+[00:01:03]: [Connect] InternalInitClient <2126598430901551311>
+[00:01:03]: [Shard] Starting shard mode as player
+[00:01:03]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:01:03]: [Connect] Sending ping(s)...
+[00:01:03]: [Connect] Server has no net id, not attempting punchthrough.
+[00:01:03]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:01:03]: [Connect] Ping response from 127.0.0.1|10999
+[00:01:03]: [Connect] Joining server from ping response...
+[00:01:03]: [Connect] Got join server response from lua
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:01:03]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:01:04]: [200] Account Communication Success (13)
+[00:01:04]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:01:04]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:01:04]: Connection accepted to 127.0.0.1|10999 <9109186419499852969>
+[00:01:04]: Network external address discovered: 127.0.0.1|61152
+[00:01:04]: SendClientHandShakePacket to <9109186419499852969>
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:01:04]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:01:04]: DeserializeHandShakeServerListing
+[00:01:04]: Network tick rate: U=10(3), D=15
+[00:01:04]: Platform: 4
+[00:01:04]: Version: 407551
+[00:01:04]: SendClientInventoryHandShakePacket to <9109186419499852969>
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:01:05]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:01:06]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:01:07]: Begin Session: 4C6D007E96C6F931
+[00:01:07]: Done Downloading Client Object Data
+[00:01:07]: DownloadMods and temp disable	
+[00:01:07]: We now have the required mods, enable them for server	
+[00:01:07]: Temp Enabling workshop-100010062	
+[00:01:07]: Temp Enabling workshop-100010058	
+[00:01:07]: Temp Enabling workshop-2199027653598511647	
+[00:01:07]: Temp Enabling workshop-2199027653598516141	
+[00:01:07]: Temp Enabling workshop-100010063	
+[00:01:07]: Temp Enabling workshop-100010059	
+[00:01:07]: ModIndex:SetTempModConfigData	
+[00:01:07]: Setting temp mod config for mod 	workshop-100010058	
+[00:01:07]: Setting temp mod config for mod 	workshop-100010059	
+[00:01:07]: Setting temp mod config for mod 	workshop-2199027653598516141	
+[00:01:07]: Setting temp mod config for mod 	workshop-100010063	
+[00:01:07]: Setting temp mod config for mod 	workshop-100010062	
+[00:01:07]: Setting temp mod config for mod 	workshop-2199027653598511647	
+[00:01:07]: Mods are setup for server, save the mod index and proceed.	
+[00:01:07]: Downloading [0] From: server_temp
+[00:01:07]: [Rail] Reporting played with: "清风洛水" (R:76561197971398001).
+[00:01:07]: 0 (32%) 1/1 server_temp\server_save 114000b / 350607b
+[00:01:07]: 0 (64%) 1/1 server_temp\server_save 228000b / 350607b
+[00:01:07]: 0 (97%) 1/1 server_temp\server_save 342000b / 350607b
+[00:01:07]: 0 (100%) 1/1 server_temp\server_save 350607b / 350607b
+[00:01:07]: Download complete[0] Files: 1 Size: 350607
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010026...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010071...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010018...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010005...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010063...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010059...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010012...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010011...
+[00:01:07]: Getting mod details (PublishedFileDetails) - 100010010...
+[00:01:07]: Collecting garbage...
+[00:01:07]: lua_gc took 0.04 seconds
+[00:01:07]: ~ShardLuaProxy()
+[00:01:07]: ~cEventLeaderboardProxy()
+[00:01:07]: ~ItemServerLuaProxy()
+[00:01:07]: ~InventoryLuaProxy()
+[00:01:07]: ~NetworkLuaProxy()
+[00:01:07]: ~SimLuaProxy()
+[00:01:07]: lua_close took 0.05 seconds
+[00:01:07]: ReleaseAll
+[00:01:07]: ReleaseAll Finished
+[00:01:07]: cGame::StartPlaying
+[00:01:07]: LOADING LUA
+[00:01:07]: DoLuaFile scripts/main.lua
+[00:01:07]: DoLuaFile loading buffer scripts/main.lua
+[00:01:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:01:08]:   taskgrouplist:	default	联机版	
+[00:01:08]:   taskgrouplist:	classic	经典	
+[00:01:08]:   taskgrouplist:	cave_default	地下	
+[00:01:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:01:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:01:08]: running main.lua
+	
+[00:01:08]: unloading prefabs for mod MOD_workshop-100010065	
+[00:01:08]: unloading prefabs for mod MOD_workshop-100010064	
+[00:01:08]: unloading prefabs for mod MOD_workshop-100010057	
+[00:01:08]: unloading prefabs for mod MOD_workshop-100010060	
+[00:01:08]: loaded modindex	
+[00:01:08]: ModIndex: Beginning normal load sequence.
+	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010063	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511647	
+[00:01:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516141	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010057	
+[00:01:08]: Loading mod: workshop-100010057 (Combined Status) Version:1.6.14.h.0.2	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:01:08]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010059_CLIENT	
+[00:01:08]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010060	
+[00:01:08]: Loading mod: workshop-100010060 (Geometric Placement) Version:2.1.3	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:01:08]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010063_CLIENT	
+[00:01:08]: Loading mod: workshop-100010063 (叠加上限99) Version:1.62.h.0.1	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:01:08]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:01:08]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511647_CLIENT	
+[00:01:08]: Loading mod: workshop-2199027653598511647 (伤害显示) Version:0.72	
+[00:01:08]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516141_CLIENT	
+[00:01:08]: Loading mod: workshop-2199027653598516141 (YDJ DS) Version:1.0.9	
+[00:01:08]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:01:08]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:01:08]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:01:08]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:01:08]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:01:08]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:01:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:01:08]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:01:08]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:01:08]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:01:08]: Mod: workshop-100010063 (叠加上限99)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010063 (叠加上限99)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010063 (叠加上限99)	Loading modmain.lua	
+[00:01:08]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:01:08]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-2199027653598511647 (伤害显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modmain.lua	
+[00:01:08]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modworldgenmain.lua	
+[00:01:08]: Mod: workshop-2199027653598516141 (YDJ DS)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:08]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modmain.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/modmain2.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/hehe/td1madao_ydj_dst_td1madao_global_hehe.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_author_init.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_protocol.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_lifecycle.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_personal.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_prefab.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/sugar/td1madao_ydj_dst_td1madao_global_extension.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_x.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ds.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_anim.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat_effect.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_comp.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_health.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_json.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_language.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_net.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_other.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_prefab.lua	
+[00:01:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sys.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_time.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_trans.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_segment.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_string.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_arithmetic.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sugar.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_log.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_switch.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_compatible.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ui.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/segment/td1madao_ydj_dst_td1madao_global_segment.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/net/td1madao_ydj_dst_td1madao_global_protocol.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_client_fn.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_server_fn.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_resource.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_asset.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_prefab_file.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_tech.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/key/td1madao_ydj_dst_td1madao_global_hotkey.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_en.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_box_widget.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_personal.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_group.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_common.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_playerinit.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/stategraph/td1madao_ydj_dst_td1madao_global_stategraph.lua	
+[00:01:09]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_show_widget.lua	
+[00:01:09]: Mod: workshop-100010057 (Combined Status)	Loading modworldgenmain.lua	
+[00:01:09]: Mod: workshop-100010057 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:09]: Mod: workshop-100010057 (Combined Status)	Loading modmain.lua	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010063	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511647	
+[00:01:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516141	
+[00:01:09]: Mod: workshop-100010060 (Geometric Placement)	Loading modworldgenmain.lua	
+[00:01:09]: Mod: workshop-100010060 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:09]: Mod: workshop-100010060 (Geometric Placement)	Loading modmain.lua	
+[00:01:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:11]: LOADING LUA SUCCESS
+[00:01:11]: Registering mod namespace "td1madao_global"
+[00:01:11]: Registering mod namespace "food item"
+[00:01:11]: PlayerDeaths loaded morgue	882	
+[00:01:11]: PlayerHistory loaded player_history (v2) len:446	
+[00:01:11]: ServerPreferences loaded server_preferences	2	
+[00:01:11]: bloom_enabled	false	
+[00:01:11]: loaded saveindex	
+[00:01:11]: OnFilesLoaded()	
+[00:01:11]: OnUpdatePurchaseStateComplete	
+[00:01:11]: Loading world: client_temp/server_save	
+[00:01:11]: Save file is at version 5.04	
+[00:01:11]: Klump load on boot started.	
+[00:01:11]: Klump files loaded: 	0	
+[00:01:11]: 	Unload FE	
+[00:01:11]: 	Unload FE done	
+[00:01:15]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:01:15]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:01:15]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:01:15]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010063 (叠加上限99)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010063 (叠加上限99)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-2199027653598511647 (伤害显示)	Registering prefabs	
+[00:01:15]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering prefab file: prefabs/dmgind	
+[00:01:15]: Mod: workshop-2199027653598511647 (伤害显示)	    dmgind	
+[00:01:15]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	Registering prefabs	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_fx	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_air_sword	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_item	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe1	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe2	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe3	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe4	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe5	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe6	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe7	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe8	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe9	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe10	
+[00:01:15]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010057 (Combined Status)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010057 (Combined Status)	  Registering default mod prefab	
+[00:01:15]: Mod: workshop-100010060 (Geometric Placement)	Registering prefabs	
+[00:01:15]: Mod: workshop-100010060 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[00:01:15]: Mod: workshop-100010060 (Geometric Placement)	    buildgridplacer	
+[00:01:15]: Mod: workshop-100010060 (Geometric Placement)	  Registering default mod prefab	
+[00:01:16]: 	LOAD BE	
+[00:01:18]: 	LOAD BE: done	
+[00:01:18]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:18]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598516141/images/map_icons/ydj_dst_td1madao.xml )
+[00:01:18]: Loading 17 new character(s)	
+[00:01:19]: Total 17 character(s) loaded	
+[00:01:19]: Loading Nav Grid	
+[00:01:19]: World generated on version 402247, using seed: 1587216106	
+[00:01:19]: setting 	summerlength	15	
+[00:01:19]: setting 	isnightmaredawn	false	
+[00:01:19]: setting 	elapseddaysinseason	7	
+[00:01:19]: setting 	isfullmoon	false	
+[00:01:19]: setting 	moisture	2900.6809082031	
+[00:01:19]: setting 	springlength	20	
+[00:01:19]: setting 	isnightmarewild	false	
+[00:01:19]: setting 	moonphase	threequarter	
+[00:01:19]: setting 	precipitationrate	0	
+[00:01:19]: setting 	iswet	false	
+[00:01:19]: setting 	isnewmoon	false	
+[00:01:19]: setting 	iswinter	false	
+[00:01:19]: setting 	israining	false	
+[00:01:19]: setting 	issummer	false	
+[00:01:19]: setting 	time	0.49800777435303	
+[00:01:19]: setting 	wetness	0	
+[00:01:19]: setting 	moistureceil	3226.3801269531	
+[00:01:19]: setting 	isday	false	
+[00:01:19]: setting 	nightmaretimeinphase	0	
+[00:01:19]: setting 	season	spring	
+[00:01:19]: setting 	isnight	false	
+[00:01:19]: setting 	cycles	112	
+[00:01:19]: setting 	isnightmarecalm	false	
+[00:01:19]: setting 	timeinphase	0.37101554870605	
+[00:01:19]: setting 	isdusk	true	
+[00:01:19]: setting 	iscavedusk	true	
+[00:01:19]: setting 	isautumn	false	
+[00:01:19]: setting 	iscaveday	false	
+[00:01:19]: setting 	remainingdaysinseason	13	
+[00:01:19]: setting 	phase	dusk	
+[00:01:19]: setting 	snowlevel	0	
+[00:01:19]: setting 	iswaxingmoon	false	
+[00:01:19]: setting 	autumnlength	20	
+[00:01:19]: setting 	pop	0.87803513329314	
+[00:01:19]: setting 	nightmaretime	0	
+[00:01:19]: setting 	isspring	true	
+[00:01:19]: setting 	winterlength	15	
+[00:01:19]: setting 	nightmarephase	none	
+[00:01:19]: setting 	issnowcovered	false	
+[00:01:19]: setting 	issnowing	false	
+[00:01:19]: setting 	iscavenight	false	
+[00:01:19]: setting 	temperature	23.853053087676	
+[00:01:19]: setting 	cavephase	dusk	
+[00:01:19]: setting 	precipitation	none	
+[00:01:19]: setting 	isnightmarewarn	false	
+[00:01:19]: Reconstructing topology	
+[00:01:19]: 	...Sorting points	
+[00:01:19]: 	...Sorting edges	
+[00:01:19]: 	...Connecting nodes	
+[00:01:19]: 	...Validating connections	
+[00:01:19]: 	...Housekeeping	
+[00:01:19]: 	...Done!	
+[00:01:19]: Check for write access: TRUE
+[00:01:19]: Check for read access: TRUE
+[00:01:19]: ModIndex: Load sequence finished successfully.	
+[00:01:19]: Reset() returning
+[00:01:21]: Attempting to send resume request
+[00:01:21]: ReceiveResumeNotification
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:01:21]: Movement prediction enabled	
+[00:01:21]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[00:01:21]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:01:21]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:01:21]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[00:01:21]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:01:21]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:01:21]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:01:21]: Deserializing tile data (425 x 425)
+[00:01:21]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:01:25]: SimLuaProxy::QueryServer()
+[00:01:27]: SimLuaProxy::QueryServer()
+[00:01:30]: CURL ERROR: (td1madao-mydocker.daoapp.io) Connection timed out after 5000 milliseconds
+[00:02:44]: Invalid RPC data type
+[00:05:06]: [SYSMEM]45% - PH:8847m/16333m PG:6011m/17357m VRT:2293m/4095m XM:0m
+[00:05:06]: [PRCMEM]PWS:1249m WS:1217m PPU:802k PU 792k PNU:161k NU:149k PF:1251m PPF:1283m
+[00:05:22]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:10:06]: [SYSMEM]46% - PH:8817m/16333m PG:5980m/17357m VRT:2303m/4095m XM:0m
+[00:10:06]: [PRCMEM]PWS:1249m WS:1208m PPU:803k PU 791k PNU:161k NU:145k PF:1244m PPF:1283m
+[00:13:22]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:15:06]: [SYSMEM]46% - PH:8815m/16333m PG:5982m/17357m VRT:2297m/4095m XM:0m
+[00:15:06]: [PRCMEM]PWS:1249m WS:1223m PPU:804k PU 793k PNU:161k NU:147k PF:1259m PPF:1283m
+[00:20:06]: [SYSMEM]45% - PH:8827m/16333m PG:5988m/17357m VRT:2304m/4095m XM:0m
+[00:20:06]: [PRCMEM]PWS:1249m WS:1213m PPU:805k PU 794k PNU:161k NU:146k PF:1248m PPF:1283m
+[00:21:22]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:24:54]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[00:24:54]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:24:54]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[00:24:54]: WARNING! Could not find region 'ydj_dst_td1madao_axe7.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[00:24:54]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[00:24:54]: WARNING! Could not find region 'ydj_dst_td1madao_axe7.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[00:24:54]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[00:24:55]: WARNING! Could not find region 'ydj_dst_td1madao_axe7.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[00:24:55]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[00:25:06]: [SYSMEM]46% - PH:8779m/16333m PG:5916m/17357m VRT:2309m/4095m XM:0m
+[00:25:06]: [PRCMEM]PWS:1249m WS:1208m PPU:808k PU 799k PNU:161k NU:144k PF:1243m PPF:1283m
+[00:26:56]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_3xJ72kaz","Modified":1588599265.5454805,"ItemID":732279777880840030}
+
+[00:29:23]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:30:02]: [200] Account Communication Success (6)
+[00:30:02]: Received (KU_3xJ72kaz) from TokenPurpose
+[00:30:06]: [SYSMEM]46% - PH:8775m/16333m PG:5964m/17357m VRT:2295m/4095m XM:0m
+[00:30:06]: [PRCMEM]PWS:1249m WS:1223m PPU:819k PU 807k PNU:161k NU:149k PF:1257m PPF:1283m
+[00:35:06]: [SYSMEM]46% - PH:8785m/16333m PG:5964m/17357m VRT:2303m/4095m XM:0m
+[00:35:06]: [PRCMEM]PWS:1249m WS:1219m PPU:819k PU 802k PNU:161k NU:146k PF:1251m PPF:1283m
+[00:37:23]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:38:51]: Getting display mode: Querying display 1 [of 1]
+[00:38:51]: 	\: 1920, 1080, 60
+[00:38:56]: WARNING! Could not find region 'self_inspect_ydj_dst_td1madao.tex' from atlas 'images/hud.xml'. Is the region specified in the atlas?
+[00:38:56]: Looking for default texture 'self_inspect_mod.tex' from atlas 'images/hud.xml'.
+[00:40:06]: [SYSMEM]46% - PH:8746m/16333m PG:5891m/17357m VRT:2253m/4095m XM:0m
+[00:40:06]: [PRCMEM]PWS:1251m WS:1241m PPU:919k PU 908k PNU:161k NU:149k PF:1276m PPF:1283m
+[00:43:19]: Getting display mode: Querying display 1 [of 1]
+[00:43:19]: 	\: 1920, 1080, 60
+[00:45:06]: [SYSMEM]46% - PH:8796m/16333m PG:5945m/17357m VRT:2264m/4095m XM:0m
+[00:45:06]: [PRCMEM]PWS:1265m WS:1241m PPU:923k PU 912k PNU:161k NU:150k PF:1276m PPF:1300m
+[00:45:24]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:50:06]: [SYSMEM]46% - PH:8780m/16333m PG:5918m/17357m VRT:2264m/4095m XM:0m
+[00:50:06]: [PRCMEM]PWS:1265m WS:1241m PPU:923k PU 911k PNU:161k NU:149k PF:1276m PPF:1300m
+[00:53:24]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[00:55:06]: [SYSMEM]46% - PH:8770m/16333m PG:5907m/17357m VRT:2253m/4095m XM:0m
+[00:55:06]: [PRCMEM]PWS:1270m WS:1254m PPU:923k PU 912k PNU:161k NU:147k PF:1289m PPF:1306m
+[01:00:01]: [200] Account Communication Success (6)
+[01:00:01]: Received (KU_3xJ72kaz) from TokenPurpose
+[01:00:06]: [SYSMEM]44% - PH:9134m/16333m PG:5950m/17357m VRT:2259m/4095m XM:0m
+[01:00:06]: [PRCMEM]PWS:1281m WS:1214m PPU:925k PU 910k PNU:161k NU:148k PF:1287m PPF:1317m
+[01:01:24]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:05:06]: [SYSMEM]44% - PH:9083m/16333m PG:5904m/17357m VRT:2236m/4095m XM:0m
+[01:05:06]: [PRCMEM]PWS:1281m WS:1222m PPU:933k PU 923k PNU:161k NU:148k PF:1297m PPF:1317m
+[01:09:25]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:10:06]: [SYSMEM]44% - PH:9048m/16333m PG:5880m/17357m VRT:2233m/4095m XM:0m
+[01:10:06]: [PRCMEM]PWS:1281m WS:1225m PPU:936k PU 924k PNU:161k NU:148k PF:1299m PPF:1317m
+[01:15:06]: [SYSMEM]44% - PH:9006m/16333m PG:5875m/17357m VRT:2233m/4095m XM:0m
+[01:15:06]: [PRCMEM]PWS:1281m WS:1228m PPU:939k PU 928k PNU:161k NU:151k PF:1302m PPF:1317m
+[01:17:25]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:20:06]: [SYSMEM]44% - PH:9060m/16333m PG:5929m/17357m VRT:2232m/4095m XM:0m
+[01:20:06]: [PRCMEM]PWS:1281m WS:1230m PPU:940k PU 927k PNU:161k NU:149k PF:1304m PPF:1319m
+[01:25:06]: [SYSMEM]44% - PH:9098m/16333m PG:5945m/17357m VRT:2233m/4095m XM:0m
+[01:25:06]: [PRCMEM]PWS:1281m WS:1230m PPU:940k PU 929k PNU:161k NU:149k PF:1304m PPF:1319m
+[01:25:25]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:25:48]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_3xJ72kaz","Modified":1588602796.5967157,"ItemID":732279777880844783}
+
+[01:30:01]: [200] Account Communication Success (6)
+[01:30:01]: Received (KU_3xJ72kaz) from TokenPurpose
+[01:30:06]: [SYSMEM]44% - PH:8999m/16333m PG:5843m/17357m VRT:2230m/4095m XM:0m
+[01:30:06]: [PRCMEM]PWS:1281m WS:1236m PPU:941k PU 928k PNU:161k NU:150k PF:1310m PPF:1325m
+[01:30:13]: Locomotor: Waiting for server...
+[01:30:13]: Locomotor: Resynced
+[01:30:17]: Invalid RPC data type
+[01:33:26]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:35:06]: [SYSMEM]45% - PH:8981m/16333m PG:5829m/17357m VRT:2236m/4095m XM:0m
+[01:35:06]: [PRCMEM]PWS:1281m WS:1229m PPU:941k PU 931k PNU:161k NU:149k PF:1303m PPF:1325m
+[01:40:06]: [SYSMEM]45% - PH:8965m/16333m PG:5806m/17357m VRT:2202m/4095m XM:0m
+[01:40:06]: [PRCMEM]PWS:1281m WS:1235m PPU:942k PU 937k PNU:161k NU:149k PF:1309m PPF:1325m
+[01:41:26]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:42:46]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[01:42:46]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:42:46]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:42:46]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:42:46]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:42:46]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:42:46]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:45:06]: [SYSMEM]45% - PH:8944m/16333m PG:5788m/17357m VRT:2199m/4095m XM:0m
+[01:45:06]: [PRCMEM]PWS:1281m WS:1235m PPU:953k PU 942k PNU:161k NU:152k PF:1310m PPF:1344m
+[01:49:08]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[01:49:08]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:08]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:08]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:08]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:08]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:08]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:08]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:08]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:09]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[01:49:09]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:09]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:09]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:09]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:09]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:09]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:09]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:09]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:10]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:10]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:10]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:10]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:11]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:11]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:11]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:11]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:26]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:49:55]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-100010057/images/avatars.xml'. Is the region specified in the atlas?
+[01:49:55]: Looking for default texture '' from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:55]: Error Looking for default texture in from atlas '../mods/workshop-100010057/images/avatars.xml'.
+[01:49:55]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:55]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:55]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:55]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:49:56]: WARNING! Could not find region 'ydj_dst_td1madao_axe9.tex' from atlas 'images/inventoryimages2.xml'. Is the region specified in the atlas?
+[01:49:56]: Looking for default texture 'unknown_hand.tex' from atlas 'images/inventoryimages2.xml'.
+[01:50:06]: [SYSMEM]45% - PH:8930m/16333m PG:5774m/17357m VRT:2180m/4095m XM:0m
+[01:50:06]: [PRCMEM]PWS:1281m WS:1252m PPU:956k PU 945k PNU:161k NU:151k PF:1327m PPF:1344m
+[01:54:46]: [IPC] Received error signal
+[01:55:06]: [SYSMEM]45% - PH:8945m/16333m PG:5797m/17357m VRT:2200m/4095m XM:0m
+[01:55:06]: [PRCMEM]PWS:1281m WS:1234m PPU:956k PU 946k PNU:161k NU:150k PF:1309m PPF:1344m
+[01:56:26]: DoRestart:	true	
+[01:56:27]: Serializing user: session/4C6D007E96C6F931/A7GFMJ3GLQ9T/0000000001
+[01:56:27]: [Shard] Stopping shard mode
+[01:56:27]: [IPC] Sending signal... #00001180
+[01:56:30]: [IPC] Unregistering handler for signal #00001150
+[01:56:30]: [IPC] Unregistering handler for signal #00001134
+[01:56:30]: [IPC] Unregistering handler for signal #00000494
+[01:56:30]: [IPC] Unregistering handler for signal #00000498
+[01:56:30]: [IPC] Unregistering handler for signal #00001184
+[01:56:30]: [IPC] Sending signal... #000011A8
+[01:56:32]: [IPC] Unregistering handler for signal #00001198
+[01:56:32]: [IPC] Unregistering handler for signal #00001194
+[01:56:32]: [IPC] Unregistering handler for signal #0000119C
+[01:56:32]: [IPC] Unregistering handler for signal #000011A0
+[01:56:32]: [IPC] Unregistering handler for signal #000011A4
+[01:56:32]: Collecting garbage...
+[01:56:32]: lua_gc took 0.04 seconds
+[01:56:32]: ~ShardLuaProxy()
+[01:56:32]: ~cEventLeaderboardProxy()
+[01:56:32]: ~ItemServerLuaProxy()
+[01:56:32]: ~InventoryLuaProxy()
+[01:56:32]: ~NetworkLuaProxy()
+[01:56:32]: ~SimLuaProxy()
+[01:56:32]: lua_close took 0.06 seconds
+[01:56:32]: ReleaseAll
+[01:56:32]: ReleaseAll Finished
+[01:56:32]: cGame::StartPlaying
+[01:56:32]: LOADING LUA
+[01:56:32]: DoLuaFile scripts/main.lua
+[01:56:32]: DoLuaFile loading buffer scripts/main.lua
+[01:56:32]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[01:56:33]:   taskgrouplist:	default	联机版	
+[01:56:33]:   taskgrouplist:	classic	经典	
+[01:56:33]:   taskgrouplist:	cave_default	地下	
+[01:56:33]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[01:56:33]:   taskgrouplist:	quagmire_taskset	暴食	
+[01:56:33]: running main.lua
+	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010065	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010059	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010058	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010062	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010063	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010064	
+[01:56:33]: unloading prefabs for mod MOD_workshop-2199027653598511647	
+[01:56:33]: unloading prefabs for mod MOD_workshop-2199027653598516141	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010057	
+[01:56:33]: unloading prefabs for mod MOD_workshop-100010060	
+[01:56:33]: loaded modindex	
+[01:56:33]: ModIndex: Beginning normal load sequence.
+	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[01:56:33]: Could not load mod_config_data/modconfiguration_workshop-100010057	
+[01:56:33]: Loading mod: workshop-100010057 (Combined Status) Version:1.6.14.h.0.2	
+[01:56:33]: Could not load mod_config_data/modconfiguration_workshop-100010060	
+[01:56:33]: Loading mod: workshop-100010060 (Geometric Placement) Version:2.1.3	
+[01:56:33]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[01:56:33]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[01:56:33]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[01:56:33]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[01:56:33]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[01:56:33]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:56:33]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[01:56:33]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[01:56:33]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[01:56:33]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[01:56:33]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[01:56:33]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[01:56:33]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[01:56:33]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:56:33]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[01:56:33]: Mod: workshop-100010057 (Combined Status)	Loading modworldgenmain.lua	
+[01:56:33]: Mod: workshop-100010057 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:56:33]: Mod: workshop-100010057 (Combined Status)	Loading modmain.lua	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010057	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010060	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[01:56:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[01:56:33]: Mod: workshop-100010060 (Geometric Placement)	Loading modworldgenmain.lua	
+[01:56:33]: Mod: workshop-100010060 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:56:33]: Mod: workshop-100010060 (Geometric Placement)	Loading modmain.lua	
+[01:56:35]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[01:56:35]: LOADING LUA SUCCESS
+[01:56:35]: PlayerDeaths loaded morgue	882	
+[01:56:35]: PlayerHistory loaded player_history (v2) len:446	
+[01:56:35]: ServerPreferences loaded server_preferences	2	
+[01:56:35]: bloom_enabled	false	
+[01:56:35]: loaded saveindex	
+[01:56:35]: OnFilesLoaded()	
+[01:56:35]: OnUpdatePurchaseStateComplete	
+[01:56:35]: Klump load on boot started.	
+[01:56:35]: Klump files loaded: 	0	
+[01:56:35]: 	Unload characters	
+[01:56:35]: 	Unload BE	
+[01:56:35]: 	Unload BE done	
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (splash_ocean)
+[01:56:35]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[01:56:35]: Could not unload undefined prefab (ocean_splash_med1)
+[01:56:35]: Could not unload undefined prefab (splash_ocean)
+[01:56:37]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[01:56:37]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[01:56:37]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[01:56:37]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[01:56:37]: Mod: workshop-100010057 (Combined Status)	Registering prefabs	
+[01:56:37]: Mod: workshop-100010057 (Combined Status)	  Registering default mod prefab	
+[01:56:37]: Mod: workshop-100010060 (Geometric Placement)	Registering prefabs	
+[01:56:37]: Mod: workshop-100010060 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[01:56:37]: Mod: workshop-100010060 (Geometric Placement)	    buildgridplacer	
+[01:56:37]: Mod: workshop-100010060 (Geometric Placement)	  Registering default mod prefab	
+[01:56:37]: 	Load FE	
+[01:56:37]: 	Load FE: done	
+[01:56:37]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/blocklist.txt (Failure)
+[01:56:37]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/adminlist.txt (Failure)
+[01:56:37]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/whitelist.txt (Failure)
+[01:56:37]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[01:56:37]: SimLuaProxy::QueryServer()
+[01:56:37]: Check for write access: TRUE
+[01:56:37]: Check for read access: TRUE
+[01:56:37]: ModIndex: Load sequence finished successfully.	
+[01:56:37]: Reset() returning
+[01:56:38]: [200] Account Communication Success (6)
+[01:56:38]: Received (KU_3xJ72kaz) from TokenPurpose
+[01:56:41]: There is no active event to get the status of.
+[01:56:41]: [Rail] IsOwnedDLC( 2001252 ) -- No
+[01:56:42]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[01:56:42]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (4).	
+[01:56:43]: loaded inventory_cache_prod
+[01:56:44]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[01:56:44]: SimLuaProxy::QueryServer()
+[01:56:46]: [MOTD] Done Loading.	
+[01:56:47]: saved APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/inventory_cache_prod
+[01:56:47]: saved APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/inventory_cache_prod_sig
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010026...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010071...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511307...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010018...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010005...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010023...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598516333...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598513752...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598513623...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598516141...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511417...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511644...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511647...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598512364...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511378...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511582...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511500...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511319...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 2199027653598511318...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010065...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010064...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010063...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010062...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010060...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010059...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010058...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010057...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010012...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010011...
+[01:56:48]: Getting mod details (PublishedFileDetails) - 100010010...
+[01:56:50]: Collecting garbage...
+[01:56:50]: lua_gc took 0.02 seconds
+[01:56:50]: ~ShardLuaProxy()
+[01:56:50]: ~cEventLeaderboardProxy()
+[01:56:50]: ~ItemServerLuaProxy()
+[01:56:50]: ~InventoryLuaProxy()
+[01:56:50]: ~NetworkLuaProxy()
+[01:56:50]: ~SimLuaProxy()
+[01:56:50]: lua_close took 0.04 seconds
+[01:56:51]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:56:51]: anim/structure_collapse_fx.zip - 1
+[01:56:51]: anim/oceanfishing_bobber_sporty_build.zip - 3
+[01:56:51]: anim/splash_ocean.zip - 1
+[01:56:51]: anim/gems.zip - 6
+[01:56:51]: anim/oceanfishingbobber_goose_build.zip - 3
+[01:56:51]: anim/statue_ruins_small.zip - 4
+[01:56:51]: anim/oceanfishing_bobber_ball_build.zip - 3
+[01:56:51]: anim/statue_ruins.zip - 4
+[01:56:51]: anim/statue_ruins_small_gem.zip - 4
+[01:56:51]: anim/oceanfishingbobber_robin_build.zip - 3
+[01:56:51]: anim/splash_water_drop.zip - 5
+[01:56:51]: anim/oceanfishingbobber_robin_winter_build.zip - 3
+[01:56:51]: anim/nightmarefuel.zip - 1
+[01:56:51]: anim/oceanfishing_bobber_ball.zip - 24
+[01:56:51]: anim/oceanfishingbobber_crow_build.zip - 3
+[01:56:51]: anim/oceanfishingbobber_canary_build.zip - 3
+[01:56:51]: anim/die.zip - 1
+[01:56:51]: anim/statue_ruins_gem.zip - 4
+[01:56:51]: anim/thulecite.zip - 1
+[01:56:51]: anim/statue_ruins_fx.zip - 1
+[01:56:51]: anim/oceanfishingbobber_malbatross_build.zip - 3
+[01:56:51]: anim/oceanfishing_hook.zip - 1
+[01:56:51]: anim/marble.zip - 1
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:56:51]: anim/statue_ruins_small_gem.zip:statue_ruins_small_gem--atlas-0.tex - 1
+[01:56:51]: anim/thulecite.zip:thulecite--atlas-0.tex - 1
+[01:56:51]: anim/gems.zip:gems--atlas-0.tex - 1
+[01:56:51]: anim/statue_ruins.zip:statue_ruins--atlas-0.tex - 1
+[01:56:51]: anim/structure_collapse_fx.zip:structure_collapse_fx--atlas-0.tex - 1
+[01:56:51]: anim/nightmarefuel.zip:nightmarefuel--atlas-0.tex - 1
+[01:56:51]: anim/statue_ruins_fx.zip:statue_ruins_fx--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishingbobber_robin_winter_build.zip:oceanfishingbobber_robin_winter_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishingbobber_malbatross_build.zip:oceanfishingbobber_malbatross_build--atlas-0.tex - 1
+[01:56:51]: anim/statue_ruins.zip:statue_ruins--atlas-1.tex - 1
+[01:56:51]: anim/oceanfishingbobber_robin_build.zip:oceanfishingbobber_robin_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishing_hook.zip:oceanfishing_hook--atlas-0.tex - 1
+[01:56:51]: anim/statue_ruins_gem.zip:statue_ruins_gem--atlas-0.tex - 1
+[01:56:51]: anim/splash_water_drop.zip:splash_water_drop--atlas-0.tex - 1
+[01:56:51]: anim/splash_ocean.zip:splash_ocean--atlas-0.tex - 1
+[01:56:51]: anim/marble.zip:marble--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishingbobber_goose_build.zip:oceanfishingbobber_goose_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishing_bobber_sporty_build.zip:oceanfishing_bobber_sporty_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishing_bobber_ball_build.zip:oceanfishing_bobber_ball_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishingbobber_crow_build.zip:oceanfishingbobber_crow_build--atlas-0.tex - 1
+[01:56:51]: anim/oceanfishingbobber_canary_build.zip:oceanfishingbobber_canary_build--atlas-0.tex - 1
+[01:56:51]: anim/die.zip:die--atlas-0.tex - 1
+[01:56:51]: anim/statue_ruins_small.zip:statue_ruins_small--atlas-0.tex - 1
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:56:51]: CurlRequestManager::ClientThread::Main() complete
+[01:56:51]: HttpClient2 discarded 0 callbacks.
+[01:56:51]: [Rail] Shutting down Rail
+[01:56:52]: Shutting down

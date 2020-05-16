@@ -1,0 +1,4 @@
+[00:01:03]: [Join Announcement] 清风洛水
+[00:08:00]: [Skin Announcement] 清风洛水 legs_skirt_button_white_ivory
+[01:03:10]: [Skin Announcement] 清风洛水 body_trimmed_blouse_pink_pearl
+[01:12:26]: [Leave Announcement] 清风洛水

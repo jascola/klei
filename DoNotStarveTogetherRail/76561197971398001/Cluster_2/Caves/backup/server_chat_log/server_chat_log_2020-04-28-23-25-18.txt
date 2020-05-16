@@ -1,0 +1,4 @@
+[00:01:04]: [Join Announcement] 清风洛水
+[00:54:16]: [Skin Announcement] 清风洛水 legs_swing_pants_pink_raspberry
+[01:15:31]: [Death Announcement] 清风洛水 死于： 麋鹿鹅。他变成了可怕的鬼魂！
+[01:15:39]: [Leave Announcement] 清风洛水

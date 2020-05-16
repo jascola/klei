@@ -1,0 +1,893 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 33%
+	Available Physical Memory: 10791m/16333m
+	Available Page File: 8072m/17357m
+	Available Virtual Memory: 4006m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 11m
+	Working Set Size: 10m
+	Quota Peak Page Pool Usage: 167k
+	Quota Page Pool Usage: 165k
+	Quota Peak Non Paged Pool Usage:15k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197971398001/Cluster_2/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 406846
+[00:00:00]: Current time: Sat Apr 25 20:52:59 2020
+
+[00:00:00]: Don't Starve Together: 406846 WIN32
+[00:00:00]: Build Date: 5243
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 2060 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_2 -ownernetid R:76561197971398001 -ownerdir 76561197971398001 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600022060 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.9.11.0
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (3784)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:0.51
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 4
+[00:00:00]: THREAD - started 'Ping Job Thread' (4092)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application E:\Program Files (x86)\WeGameApps\rail_apps\
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to China
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/adminlist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (9104)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197971398001/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: RU_76561197971398001
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197971398001/Cluster_2/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197971398001/Cluster_2/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 专业版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      AMD Ryzen 5 3600X 6-Core Processor             
+    manufacturer              AuthenticAMD
+    clockSpeed                3800
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1660 Ti
+    driverDate                20190724000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             26.21.14.3200
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:01]: modoverrides.lua enabling workshop-100010058	
+[00:00:01]: modoverrides.lua enabling workshop-100010059	
+[00:00:01]: modoverrides.lua enabling workshop-2199027653598516141	
+[00:00:01]: modoverrides.lua enabling workshop-100010063	
+[00:00:01]: modoverrides.lua enabling workshop-100010062	
+[00:00:01]: modoverrides.lua enabling workshop-2199027653598511647	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010063	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511647	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516141	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010059_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010063_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010063 (叠加上限99) Version:1.62.h.0.1	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511647_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-2199027653598511647 (伤害显示) Version:0.72	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516141_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:01]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:01]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-2199027653598516141 (YDJ DS) Version:1.0.9	
+[00:00:01]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:01]: Mod: workshop-100010063 (叠加上限99)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-100010063 (叠加上限99)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-100010063 (叠加上限99)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2199027653598511647 (伤害显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2199027653598516141 (YDJ DS)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/modmain2.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/hehe/td1madao_ydj_dst_td1madao_global_hehe.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_author_init.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_protocol.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_lifecycle.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_personal.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_prefab.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/sugar/td1madao_ydj_dst_td1madao_global_extension.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_x.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ds.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_anim.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat_effect.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_comp.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_health.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_json.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_language.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_net.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_other.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_prefab.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sys.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_time.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_trans.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_segment.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_string.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_arithmetic.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sugar.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_log.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_switch.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_compatible.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ui.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/segment/td1madao_ydj_dst_td1madao_global_segment.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/net/td1madao_ydj_dst_td1madao_global_protocol.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_client_fn.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_server_fn.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_resource.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_asset.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_prefab_file.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_tech.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/key/td1madao_ydj_dst_td1madao_global_hotkey.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_en.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_box_widget.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_personal.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_group.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_common.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_playerinit.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/stategraph/td1madao_ydj_dst_td1madao_global_stategraph.lua	
+[00:00:01]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_show_widget.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering mod namespace "td1madao_global"
+[00:00:02]: Registering mod namespace "food item"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	false	
+[00:00:02]: loaded saveindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:04]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:00:04]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:00:04]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:00:04]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:05]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:05]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-100010063 (叠加上限99)	Registering prefabs	
+[00:00:05]: Mod: workshop-100010063 (叠加上限99)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-2199027653598511647 (伤害显示)	Registering prefabs	
+[00:00:05]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering prefab file: prefabs/dmgind	
+[00:00:05]: Mod: workshop-2199027653598511647 (伤害显示)	    dmgind	
+[00:00:05]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	Registering prefabs	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_fx	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_air_sword	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_item	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe1	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe2	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe3	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe4	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe5	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe6	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe7	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe8	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe9	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe10	
+[00:00:05]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (10592)
+[00:00:05]: FilesExistAsyncThread started (15339 files)...
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Slave_Kill' opened  #00000548
+[00:00:05]: [IPC] Registering handler for signal #00000548
+[00:00:05]: [IPC] Handle #00000548 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Slave_Starting' opened  #00000608
+[00:00:05]: [IPC] Sending signal... #00000608
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_3xJ72kaz) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: false
+[00:00:06]:   ServerPort: 10998
+[00:00:06]:   SteamAuthPort: 8766
+[00:00:06]:   SteamMasterServerPort: 27016
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: false
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: social
+[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511647	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516141	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010063	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:06]: Online Server Started on port: 10998
+[00:00:06]: [Rail] Punchthrough start.
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.03 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~cEventLeaderboardProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: FilesExistAsyncThread aborted.
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: lua_close took 0.05 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:08]:   taskgrouplist:	default	联机版	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: unloading prefabs for mod MOD_workshop-100010059	
+[00:00:08]: unloading prefabs for mod MOD_workshop-100010058	
+[00:00:08]: unloading prefabs for mod MOD_workshop-100010062	
+[00:00:08]: unloading prefabs for mod MOD_workshop-100010063	
+[00:00:08]: unloading prefabs for mod MOD_workshop-2199027653598511647	
+[00:00:08]: unloading prefabs for mod MOD_workshop-2199027653598516141	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: modoverrides.lua enabling workshop-100010058	
+[00:00:08]: modoverrides.lua enabling workshop-100010059	
+[00:00:08]: modoverrides.lua enabling workshop-2199027653598516141	
+[00:00:08]: modoverrides.lua enabling workshop-100010063	
+[00:00:08]: modoverrides.lua enabling workshop-100010062	
+[00:00:08]: modoverrides.lua enabling workshop-2199027653598511647	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010063	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511647	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516141	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-100010063	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-100010063 (叠加上限99) Version:1.62.h.0.1	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511647	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-2199027653598511647 (伤害显示) Version:0.72	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516141	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:08]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516141	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option q with value 0	
+[00:00:08]: Overriding mod workshop-2199027653598516141's option ChineseLanguage with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010063	
+[00:00:08]: Overriding mod workshop-100010063's option MAXSTACKSIZE with value 99	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:08]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:08]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:08]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:08]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:08]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:08]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598511647	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option dmg_only with value on	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option amount_of_numbers with value default	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option show_decimal_points with value no	
+[00:00:08]: Overriding mod workshop-2199027653598511647's option display_mode with value waving	
+[00:00:08]: Loading mod: workshop-2199027653598516141 (YDJ DS) Version:1.0.9	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:08]: Mod: workshop-100010063 (叠加上限99)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010063 (叠加上限99)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010063 (叠加上限99)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598511647 (伤害显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598511647 (伤害显示)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598516141 (YDJ DS)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598516141 (YDJ DS)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/modmain2.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/hehe/td1madao_ydj_dst_td1madao_global_hehe.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_author_init.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_protocol.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_lifecycle.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_personal.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/var/td1madao_ydj_dst_td1madao_global_constant_prefab.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/sugar/td1madao_ydj_dst_td1madao_global_extension.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_x.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ds.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_anim.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_combat_effect.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_comp.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_health.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_json.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_language.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_net.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_other.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_prefab.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sys.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_time.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_trans.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_segment.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_string.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_arithmetic.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_sugar.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_log.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_switch.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_compatible.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/lib/td1madao_ydj_dst_td1madao_global_lib_ui.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/segment/td1madao_ydj_dst_td1madao_global_segment.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/net/td1madao_ydj_dst_td1madao_global_protocol.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_client_fn.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/protocol/td1madao_ydj_dst_td1madao_global_rpc_server_fn.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_resource.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_asset.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_prefab_file.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/resource/td1madao_ydj_dst_td1madao_global_tech.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/key/td1madao_ydj_dst_td1madao_global_hotkey.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_en.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_box_widget.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_personal.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_group.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/postinit/td1madao_ydj_dst_td1madao_global_postinit_common.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/init/td1madao_ydj_dst_td1madao_global_playerinit.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/stategraph/td1madao_ydj_dst_td1madao_global_stategraph.lua	
+[00:00:08]: modimport: ../mods/workshop-2199027653598516141/td1madao/widget/td1madao_ydj_dst_td1madao_global_show_widget.lua	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering mod namespace "td1madao_global"
+[00:00:10]: Registering mod namespace "food item"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: bloom_enabled	false	
+[00:00:10]: loaded saveindex	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/4191041DC22D1CA4/0000000090	
+[00:00:10]: Save file is at version 5.04	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:10]: 	Unload FE	
+[00:00:10]: 	Unload FE done	
+[00:00:13]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch.lua	
+[00:00:13]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_gbk.lua	
+[00:00:13]: modimport: ../mods/workshop-2199027653598516141/td1madao/language/td1madao_ydj_dst_td1madao_global_language_ch_utf8.lua	
+[00:00:13]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:13]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:13]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:13]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-100010063 (叠加上限99)	Registering prefabs	
+[00:00:13]: Mod: workshop-100010063 (叠加上限99)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2199027653598511647 (伤害显示)	Registering prefabs	
+[00:00:13]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering prefab file: prefabs/dmgind	
+[00:00:13]: Mod: workshop-2199027653598511647 (伤害显示)	    dmgind	
+[00:00:13]: Mod: workshop-2199027653598511647 (伤害显示)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	Registering prefabs	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_fx	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_air_sword	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering prefab file: prefabs/ydj_dst_td1madao_item	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe1	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe2	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe3	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe4	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe5	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe6	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe7	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe8	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe9	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	    ydj_dst_td1madao_axe10	
+[00:00:13]: Mod: workshop-2199027653598516141 (YDJ DS)	  Registering default mod prefab	
+[00:00:14]: 	LOAD BE	
+[00:00:29]: 	LOAD BE: done	
+[00:00:29]: Begin Session: 4191041DC22D1CA4
+[00:00:29]: saving to server_temp/server_save	
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598516141/images/map_icons/ydj_dst_td1madao.xml )
+[00:00:29]: Loading 17 new character(s)	
+[00:00:30]: Total 17 character(s) loaded	
+[00:00:33]: Loading Nav Grid	
+[00:00:33]: World generated on version 402247, using seed: 1587216106	
+[00:00:33]: setting 	summerlength	15	
+[00:00:33]: setting 	isnightmaredawn	true	
+[00:00:33]: setting 	elapseddaysinseason	8	
+[00:00:33]: setting 	isfullmoon	false	
+[00:00:33]: setting 	moisture	4681.978515625	
+[00:00:33]: setting 	springlength	20	
+[00:00:33]: setting 	isnightmarewild	false	
+[00:00:33]: setting 	moonphase	new	
+[00:00:33]: setting 	precipitationrate	0	
+[00:00:33]: setting 	iswet	false	
+[00:00:33]: setting 	isnewmoon	false	
+[00:00:33]: setting 	iswinter	false	
+[00:00:33]: setting 	israining	false	
+[00:00:33]: setting 	isnightmarewarn	false	
+[00:00:33]: setting 	precipitation	none	
+[00:00:33]: setting 	cavephase	day	
+[00:00:33]: setting 	moistureceil	9389.2314453125	
+[00:00:33]: setting 	isday	false	
+[00:00:33]: setting 	iscaveday	true	
+[00:00:33]: setting 	season	autumn	
+[00:00:33]: setting 	timeinphase	0.84168532689412	
+[00:00:33]: setting 	temperature	24.519903423483	
+[00:00:33]: setting 	isnightmarecalm	false	
+[00:00:33]: setting 	isnight	true	
+[00:00:33]: setting 	isdusk	false	
+[00:00:33]: setting 	iscavedusk	false	
+[00:00:33]: setting 	isautumn	true	
+[00:00:33]: setting 	issnowing	false	
+[00:00:33]: setting 	iswaxingmoon	true	
+[00:00:33]: setting 	pop	0.47345017157278	
+[00:00:33]: setting 	snowlevel	0	
+[00:00:33]: setting 	issnowcovered	false	
+[00:00:33]: setting 	autumnlength	20	
+[00:00:33]: setting 	phase	night	
+[00:00:33]: setting 	nightmaretime	614.15453123532	
+[00:00:33]: setting 	winterlength	15	
+[00:00:33]: setting 	isspring	false	
+[00:00:33]: setting 	nightmarephase	dawn	
+[00:00:33]: setting 	remainingdaysinseason	12	
+[00:00:33]: setting 	cycles	78	
+[00:00:33]: setting 	iscavenight	false	
+[00:00:33]: setting 	nightmaretimeinphase	0.23590885392192	
+[00:00:33]: setting 	wetness	0	
+[00:00:33]: setting 	time	0.42084266344706	
+[00:00:33]: setting 	issummer	false	
+[00:00:33]: [Shard] Slave is waiting for LUA...
+[00:00:35]: Reconstructing topology	
+[00:00:35]: 	...Sorting points	
+[00:00:35]: 	...Sorting edges	
+[00:00:35]: 	...Connecting nodes	
+[00:00:35]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:36]: 1 uploads added to server. From server_temp
+[00:00:36]: About to start a shard with these settings:
+[00:00:36]:   ShardName: Caves
+[00:00:36]:   ShardID: 1285989391
+[00:00:36]:   ShardRole: SLAVE
+[00:00:36]:   MasterHost: 127.0.0.1
+[00:00:36]:   MasterBind: (null)
+[00:00:36]:   MasterPort: 10888
+[00:00:36]: [Shard] Connecting to master...
+[00:00:36]: Telling Client our new session identifier: 4191041DC22D1CA4
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: ModIndex: Load sequence finished successfully.	
+[00:00:36]: Reset() returning
+[00:00:36]: [Rail] Creating game server...
+[00:00:36]: [Rail] Done.
+[00:00:36]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:36]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:36]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:36]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:36]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:36]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:36]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:36]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:36]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:36]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:36]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:39]: [Rail] Game server created.
+[00:00:39]: [P2P] Setting rail id 90071997811320717
+[00:00:39]: [Rail] WARNING: Spent 2946 milliseconds in rail calls in the last 3.39 seconds
+[00:00:39]:     RailLibrary::RailFireEvents: 0ms
+[00:00:41]: About to start a shard with these settings:
+[00:00:41]:   ShardName: Caves
+[00:00:41]:   ShardID: 1285989391
+[00:00:41]:   ShardRole: SLAVE
+[00:00:41]:   MasterHost: 127.0.0.1
+[00:00:41]:   MasterBind: (null)
+[00:00:41]:   MasterPort: 10888
+[00:00:41]: [Shard] Connecting to master...
+[00:00:41]: [Shard] Sending slave information to master...
+[00:00:44]: Registering slave in China lobby
+[00:00:44]: [Shard] Slave is now ready!
+[00:00:44]: World 1 is now connected	
+[00:00:44]: Validating portal[5] <-> 1[5] (active)	
+[00:00:44]: Validating portal[7] <-> 1[7] (active)	
+[00:00:44]: Validating portal[9] <-> 1[9] (active)	
+[00:00:44]: Validating portal[10] <-> 1[10] (active)	
+[00:00:44]: Validating portal[2] <-> 1[2] (active)	
+[00:00:44]: Validating portal[1] <-> 1[1] (active)	
+[00:00:44]: Validating portal[8] <-> 1[8] (active)	
+[00:00:44]: Validating portal[3] <-> 1[3] (active)	
+[00:00:44]: Validating portal[6] <-> 1[6] (active)	
+[00:00:44]: Validating portal[4] <-> 1[4] (active)	
+[00:00:45]: [Shard] Slave LUA is now ready!
+[00:00:45]: [IPC] Signal 'DST_Slave_Ready' opened  #000003F4
+[00:00:45]: [IPC] Sending signal... #000003F4
+[00:00:45]: Sim paused
+[00:00:50]: [Rail] Reporting played with: "清风洛水" (R:76561197971398001).
+[00:01:06]: Sim unpaused
+[00:05:44]: Registering slave in China lobby
+[00:05:46]: Serializing world: session/4191041DC22D1CA4/0000000091
+[00:05:46]: Truncating to snapshot #91...
+[00:05:46]:  - session/4191041DC22D1CA4/0000000085
+[00:05:46]:    1 file(s) removed
+[00:10:44]: Registering slave in China lobby
+[00:13:46]: Serializing world: session/4191041DC22D1CA4/0000000092
+[00:13:46]: Truncating to snapshot #92...
+[00:13:46]:  - session/4191041DC22D1CA4/0000000086
+[00:13:46]:    1 file(s) removed
+[00:15:02]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:15:02]: Sim paused
+[00:15:04]: [IPC] Received shutdown signal.
+[00:15:05]: Serializing world: session/4191041DC22D1CA4/0000000093
+[00:15:05]: Truncating to snapshot #93...
+[00:15:05]:  - session/4191041DC22D1CA4/0000000087
+[00:15:05]:    1 file(s) removed
+[00:15:05]: [Shard] Stopping shard mode
+[00:15:05]: Collecting garbage...
+[00:15:05]: lua_gc took 0.13 seconds
+[00:15:05]: ~ShardLuaProxy()
+[00:15:05]: ~cEventLeaderboardProxy()
+[00:15:05]: ~ItemServerLuaProxy()
+[00:15:05]: ~InventoryLuaProxy()
+[00:15:05]: ~NetworkLuaProxy()
+[00:15:05]: ~SimLuaProxy()
+[00:15:05]: lua_close took 0.23 seconds
+[00:15:05]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:15:05]: CurlRequestManager::ClientThread::Main() complete
+[00:15:05]: HttpClient2 discarded 0 callbacks.
+[00:15:05]: [Rail] Shutting down Rail
+[00:15:07]: Shutting down
