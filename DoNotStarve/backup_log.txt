@@ -1,26 +1,26 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 37%
-	Available Physical Memory: 10240m/16333m
-	Available Page File: 7251m/17357m
-	Available Virtual Memory: 3905m/4095m
+	Memory Load: 32%
+	Available Physical Memory: 11000m/16333m
+	Available Page File: 8580m/17357m
+	Available Virtual Memory: 3904m/4095m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
 Process Memory:
 	Peak Working Set Size: 39m
 	Working Set Size: 39m
 	Quota Peak Page Pool Usage: 303k
-	Quota Page Pool Usage: 281k
+	Quota Page Pool Usage: 282k
 	Quota Peak Non Paged Pool Usage:24k
 	Quota Non Paged Pool Usage: 24k
 	Page File Usage: 11m
-	Peak Page File Usage: 12m
+	Peak Page File Usage: 11m
 [00:00:00]: Starting up
 [00:00:00]: Don't Starve: 379591 WIN32_STEAM
 Branch: release
 Build Date: 797
 [00:00:00]: SteamID: 76561198214342392
-[00:00:00]: THREAD - started 'GAClient' (3256)
+[00:00:00]: THREAD - started 'GAClient' (15292)
 [00:00:00]: HttpClient::ClientThread::Main()
 [00:00:00]: SteamApps()->BIsSubscribedApp( 282470 ) -- Subscribed!
 [00:00:00]: SteamApps()->BIsDlcInstalled( 282470 ) -- Installed!
@@ -56,17 +56,14 @@ Build Date: 797
 
 [00:00:00]: cGame::InitializeOnMainThread
 [00:00:00]: WindowManager::Initialize
-[00:00:01]: WindowManager::SetFullscreen(0, 1920, 1080, 60)
-[00:00:01]: SetCommonDefaultControlMapping
-[00:00:01]:    X-pos and Y-pos available (Left Stick)
-[00:00:01]:    Z-pos and Z-rot available (Right Stick)
+[00:00:00]: WindowManager::SetFullscreen(0, 1920, 1080, 60)
 [00:00:01]: GLInfo
 [00:00:01]: ~~~~~~
+[00:00:01]: THREAD - started 'WindowsInputManager' (13444)
 [00:00:01]: GL_VENDOR: Google Inc.
 [00:00:01]: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 1660 Ti)
 [00:00:01]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
 [00:00:01]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
-[00:00:01]: THREAD - started 'WindowsInputManager' (5156)
 [00:00:01]: OpenGL extensions (19, 19):
 [00:00:01]: GL_ANGLE_depth_texture
 [00:00:01]: GL_ANGLE_framebuffer_blit
@@ -106,725 +103,877 @@ Build Date: 797
 [00:00:02]: cGame::StartPlaying
 [00:00:02]: LOADING LUA
 [00:00:02]: DoLuaFile scripts/main.lua
-[00:00:02]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]: scripts/playerprofile.lua(642,1) loaded profile	
-[00:00:02]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:02]: scripts/translator.lua(73,1) Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: scripts/playerprofile.lua(642,1) loaded profile	
 [00:00:03]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:03]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:03]: scripts/main.lua(234,1) running main.lua
+[00:00:03]: scripts/translator.lua(73,1) Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:05]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:00:05]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:00:05]: scripts/main.lua(234,1) running main.lua
 	
-[00:00:03]: scripts/main.lua(241,1) Sim Seed = 	4000	
-[00:00:03]: scripts/modindex.lua(327,1) loaded modindex	
-[00:00:03]: scripts/modindex.lua(67,1) ModIndex: Beginning normal load sequence.
+[00:00:05]: scripts/main.lua(241,1) Sim Seed = 	6000	
+[00:00:05]: scripts/modindex.lua(327,1) loaded modindex	
+[00:00:05]: scripts/modindex.lua(67,1) ModIndex: Beginning normal load sequence.
 	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: screecher does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-170030148 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-188251898 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-249713554 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-874857181 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:03]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
-[00:00:03]: scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
-[00:00:03]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-249713554	
-[00:00:03]: scripts/mods.lua(179,1) Loading mod: workshop-249713554 (BackPackPlus)	
-[00:00:03]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
-[00:00:03]: scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
-[00:00:03]: scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modworldgenmain.lua	
-[00:00:03]: scripts/mods.lua(214,1) Mod: workshop-249713554 (BackPackPlus)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modmain.lua	
-[00:00:03]: ../mods/workshop-249713554/modmain.lua(29,1) BackPackPlus : Hero In the Dark is not detected	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
-[00:00:03]: scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:03]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
-[00:00:04]: LOADING LUA SUCCESS
-[00:00:04]: scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	119	
-[00:00:04]: scripts/playerprofile.lua(642,1) loaded profile	
-[00:00:04]: scripts/playerprofile.lua(711,1) bloom_enabled	false	
-[00:00:04]: DEVICE CAP 1582107844
-[00:00:04]: scripts/saveindex.lua(103,1) Attempting to load save file saveindex	
-[00:00:04]: scripts/saveindex.lua(112,1) loaded saveindex	
-[00:00:04]: scripts/gamelogic.lua(1457,1) OnFilesLoaded()	
-[00:00:04]: scripts/gamelogic.lua(1446,1) OnUpdatePurchaseStateComplete	
-[00:00:04]: scripts/gamelogic.lua(131,1) 	Unload BE	
-[00:00:04]: Could not unload undefined prefab 0x303bfdce (axe)
-[00:00:04]: Could not unload undefined prefab 0xc78d9876 (siestahut)
-[00:00:04]: Could not unload undefined prefab 0xb22fa874 (siestahut_placer)
-[00:00:04]: Could not unload undefined prefab 0xce5a342e (firesuppressor)
-[00:00:04]: Could not unload undefined prefab 0xbbba0ebc (firesuppressor_placer)
-[00:00:04]: Could not unload undefined prefab 0xe2bfa46 (tophat)
-[00:00:04]: Could not unload undefined prefab 0x9a6718eb (resurrectionstatue)
-[00:00:04]: Could not unload undefined prefab 0x6b0c64bf (resurrectionstatue_placer)
-[00:00:04]: Could not unload undefined prefab 0xdfb37276 (telestaff)
-[00:00:04]: Could not unload undefined prefab 0xba3ae90 (featherpencil)
-[00:00:04]: Could not unload undefined prefab 0x3f6c9ebb (diviningrod)
-[00:00:04]: Could not unload undefined prefab 0xefa57cea (bandage)
-[00:00:04]: Could not unload undefined prefab 0xde4bc7e7 (wall_hay_item)
-[00:00:04]: Could not unload undefined prefab 0xe51acd32 (lightning_rod)
-[00:00:04]: Could not unload undefined prefab 0x947bfcb8 (lightning_rod_placer)
-[00:00:04]: Could not unload undefined prefab 0xb1fa364d (pickaxe)
-[00:00:04]: Could not unload undefined prefab 0x34fb4f82 (pitchfork)
-[00:00:04]: Could not unload undefined prefab 0x18f754c1 (fence_item)
-[00:00:04]: Could not unload undefined prefab 0x3f5176c5 (firepit)
-[00:00:04]: Could not unload undefined prefab 0x8a462465 (firepit_placer)
-[00:00:04]: Could not unload undefined prefab 0xe87e06c0 (icebox)
-[00:00:04]: Could not unload undefined prefab 0xf2bd1baa (icebox_placer)
-[00:00:04]: Could not unload undefined prefab 0xadfdb7ae (armor_sanity)
-[00:00:04]: Could not unload undefined prefab 0x9a66a945 (fabric)
-[00:00:04]: Could not unload undefined prefab 0x76d26529 (bugnet)
-[00:00:04]: Could not unload undefined prefab 0x5ce426c4 (blowdart_fire)
-[00:00:04]: Could not unload undefined prefab 0x1c48b877 (campfire)
-[00:00:04]: Could not unload undefined prefab 0xdfe3a33 (campfire_placer)
-[00:00:04]: Could not unload undefined prefab 0xa14b3e59 (fence_gate_item)
-[00:00:04]: Could not unload undefined prefab 0x4740cff7 (tent)
-[00:00:04]: Could not unload undefined prefab 0xb4d742b3 (tent_placer)
-[00:00:04]: Could not unload undefined prefab 0x10473739 (spear)
-[00:00:04]: Could not unload undefined prefab 0x8d44bbad (cookpot)
-[00:00:04]: Could not unload undefined prefab 0x30d2f57d (cookpot_placer)
-[00:00:04]: Could not unload undefined prefab 0xa1e54a85 (goldenaxe)
-[00:00:04]: Could not unload undefined prefab 0xe6af29d2 (compass)
-[00:00:04]: Could not unload undefined prefab 0x3ccdbe75 (icestaff)
-[00:00:04]: Could not unload undefined prefab 0x68ba7101 (researchlab3)
-[00:00:04]: Could not unload undefined prefab 0xd6985329 (researchlab3_placer)
-[00:00:04]: Could not unload undefined prefab 0xca16846d (boards)
-[00:00:04]: Could not unload undefined prefab 0xfa14dec6 (birdtrap)
-[00:00:04]: Could not unload undefined prefab 0x7c11af2 (treasurechest)
-[00:00:04]: Could not unload undefined prefab 0xd411bef8 (treasurechest_placer)
-[00:00:04]: Could not unload undefined prefab 0xef21c9f2 (rope)
-[00:00:04]: Could not unload undefined prefab 0x2f0f89cb (reflectivevest)
-[00:00:04]: Could not unload undefined prefab 0xbc429ef3 (bushhat)
-[00:00:04]: Could not unload undefined prefab 0xb981ecda (fast_farmplot)
-[00:00:04]: Could not unload undefined prefab 0x6c77c310 (fast_farmplot_placer)
-[00:00:04]: Could not unload undefined prefab 0xf4eb0943 (shovel)
-[00:00:04]: Could not unload undefined prefab 0xbcfca634 (strawhat)
-[00:00:04]: Could not unload undefined prefab 0x9d92cce (purpleamulet)
-[00:00:04]: Could not unload undefined prefab 0x68370bd6 (trap_teeth)
-[00:00:04]: Could not unload undefined prefab 0x761a1799 (gunpowder)
-[00:00:04]: Could not unload undefined prefab 0x1eee0485 (transistor)
-[00:00:04]: Could not unload undefined prefab 0xeb646050 (icehat)
-[00:00:04]: Could not unload undefined prefab 0xe8561ebe (waxpaper)
-[00:00:04]: Could not unload undefined prefab 0x94cf6c04 (goldenpickaxe)
-[00:00:04]: Could not unload undefined prefab 0x1883478c (bundlewrap)
-[00:00:04]: Could not unload undefined prefab 0x739fbe3c (homesign)
-[00:00:04]: Could not unload undefined prefab 0x33fdbd2e (homesign_placer)
-[00:00:04]: Could not unload undefined prefab 0xec43b9f4 (sewing_kit)
-[00:00:04]: Could not unload undefined prefab 0xd8067599 (beehat)
-[00:00:04]: Could not unload undefined prefab 0x8bbc7f55 (beemine)
-[00:00:04]: Could not unload undefined prefab 0x86860bc2 (boomerang)
-[00:00:04]: Could not unload undefined prefab 0x85181f7c (minerhat)
-[00:00:04]: Could not unload undefined prefab 0x15220700 (backpack)
-[00:00:04]: Could not unload undefined prefab 0xfb180669 (blowdart_sleep)
-[00:00:04]: Could not unload undefined prefab 0x2e264dbc (blowdart_pipe)
-[00:00:04]: Could not unload undefined prefab 0xd5201c09 (beebox)
-[00:00:04]: Could not unload undefined prefab 0x753b7621 (beebox_placer)
-[00:00:04]: Could not unload undefined prefab 0xb918c5fd (fishingrod)
-[00:00:04]: Could not unload undefined prefab 0x111db7ae (footballhat)
-[00:00:04]: Could not unload undefined prefab 0x80cb1e18 (featherhat)
-[00:00:04]: Could not unload undefined prefab 0x5a59f5cc (goldenshovel)
-[00:00:04]: Could not unload undefined prefab 0x3532833e (minisign_item)
-[00:00:04]: Could not unload undefined prefab 0x4d9a964d (trap)
-[00:00:04]: Could not unload undefined prefab 0x4685284 (umbrella)
-[00:00:04]: Could not unload undefined prefab 0x6f21e747 (piggyback)
-[00:00:04]: Could not unload undefined prefab 0xbea16a01 (hambat)
-[00:00:04]: Could not unload undefined prefab 0xacbea762 (fertilizer)
-[00:00:04]: Could not unload undefined prefab 0x3949a42 (meatrack)
-[00:00:04]: Could not unload undefined prefab 0x56340ba8 (meatrack_placer)
-[00:00:04]: Could not unload undefined prefab 0x6dda899f (watermelonhat)
-[00:00:04]: Could not unload undefined prefab 0xa9bd39bd (beeswax)
-[00:00:04]: Could not unload undefined prefab 0xfbaefa0e (rainometer)
-[00:00:04]: Could not unload undefined prefab 0xeea990dc (rainometer_placer)
-[00:00:04]: Could not unload undefined prefab 0x41ba89b5 (nightmarefuel)
-[00:00:04]: Could not unload undefined prefab 0x3cb06493 (healingsalve)
-[00:00:04]: Could not unload undefined prefab 0xd3c23856 (goldnugget)
-[00:00:04]: Could not unload undefined prefab 0x75370b6 (papyrus)
-[00:00:04]: Could not unload undefined prefab 0xcceee6c3 (cutstone)
-[00:00:04]: Could not unload undefined prefab 0x89c20b1b (telebase)
-[00:00:04]: Could not unload undefined prefab 0x868a468f (telebase_placer)
-[00:00:04]: Could not unload undefined prefab 0xe5936c6a (firestaff)
-[00:00:04]: Could not unload undefined prefab 0x7f2d088c (armorwood)
-[00:00:04]: Could not unload undefined prefab 0xc3bf310c (blueamulet)
-[00:00:04]: Could not unload undefined prefab 0x1cd9e60e (razor)
-[00:00:04]: Could not unload undefined prefab 0xcd7669e5 (nightsword)
-[00:00:04]: Could not unload undefined prefab 0x62a5e7fe (nightlight)
-[00:00:04]: Could not unload undefined prefab 0x185806ec (nightlight_placer)
-[00:00:04]: Could not unload undefined prefab 0x92ccc001 (coldfirepit)
-[00:00:04]: Could not unload undefined prefab 0x21e04429 (coldfirepit_placer)
-[00:00:04]: Could not unload undefined prefab 0xb6201ac9 (onemanband)
-[00:00:04]: Could not unload undefined prefab 0xf0330963 (panflute)
-[00:00:04]: Could not unload undefined prefab 0x378bda50 (wall_wood_item)
-[00:00:04]: Could not unload undefined prefab 0xda1f7edf (winterometer)
-[00:00:04]: Could not unload undefined prefab 0x955229cb (winterometer_placer)
-[00:00:04]: Could not unload undefined prefab 0xcba65752 (amulet)
-[00:00:04]: Could not unload undefined prefab 0x38967bb2 (researchlab)
-[00:00:04]: Could not unload undefined prefab 0x77e9ae38 (researchlab_placer)
-[00:00:04]: Could not unload undefined prefab 0xcad92460 (flowerhat)
-[00:00:04]: Could not unload undefined prefab 0x68ba7100 (researchlab2)
-[00:00:04]: Could not unload undefined prefab 0x3386a16a (researchlab2_placer)
-[00:00:04]: Could not unload undefined prefab 0xdac7fbf5 (birdcage)
-[00:00:04]: Could not unload undefined prefab 0xe1f9b335 (birdcage_placer)
-[00:00:04]: Could not unload undefined prefab 0x8d60ee3a (coldfire)
-[00:00:04]: Could not unload undefined prefab 0xe72d29b0 (coldfire_placer)
-[00:00:04]: Could not unload undefined prefab 0x263bc4d5 (slow_farmplot)
-[00:00:04]: Could not unload undefined prefab 0x321f7255 (slow_farmplot_placer)
-[00:00:04]: Could not unload undefined prefab 0xc4101586 (hammer)
-[00:00:04]: Could not unload undefined prefab 0x2c158f7c (torch)
-[00:00:04]: Could not unload undefined prefab 0x2ae7e3b3 (purplegem)
-[00:00:04]: Could not unload undefined prefab 0x265d1455 (turf_woodfloor)
-[00:00:04]: Could not unload undefined prefab 0x3d4d1dc6 (bedroll_straw)
-[00:00:04]: Could not unload undefined prefab 0xdb20fa95 (heatrock)
-[00:00:04]: Could not unload undefined prefab 0x22ec3802 (wall_stone_item)
-[00:00:04]: Could not unload undefined prefab 0xdeb59676 (saddle_basic)
-[00:00:04]: Could not unload undefined prefab 0x36768a92 (orangestaff)
-[00:00:04]: Could not unload undefined prefab 0x4742feaa (saddlehorn)
-[00:00:04]: Could not unload undefined prefab 0x8cc766ef (pumpkin_lantern)
-[00:00:04]: Could not unload undefined prefab 0xfdcabd86 (earmuffshat)
-[00:00:04]: Could not unload undefined prefab 0x7f46d7c0 (batbat)
-[00:00:04]: Could not unload undefined prefab 0x9a99c7b7 (armorgrass)
-[00:00:04]: Could not unload undefined prefab 0xa801bd29 (saddle_race)
-[00:00:04]: Could not unload undefined prefab 0xaf34ecc0 (trunkvest_winter)
-[00:00:04]: Could not unload undefined prefab 0xda17c8e8 (armorslurper)
-[00:00:04]: Could not unload undefined prefab 0x47611d71 (sweatervest)
-[00:00:04]: Could not unload undefined prefab 0x875750ea (turf_road)
-[00:00:04]: Could not unload undefined prefab 0x1daa5ab7 (turf_carpetfloor)
-[00:00:04]: Could not unload undefined prefab 0x2ca456a0 (orangeamulet)
-[00:00:04]: Could not unload undefined prefab 0xcda99af6 (winterhat)
-[00:00:04]: Could not unload undefined prefab 0xf8e41fa9 (bedroll_furry)
-[00:00:04]: Could not unload undefined prefab 0x37c31aa6 (lantern)
-[00:00:04]: Could not unload undefined prefab 0x7fcb037d (greenstaff)
-[00:00:04]: Could not unload undefined prefab 0x3edae42e (multitool_axe_pickaxe)
-[00:00:04]: Could not unload undefined prefab 0xf295861a (brush)
-[00:00:04]: Could not unload undefined prefab 0xe16c07d0 (ruinshat)
-[00:00:04]: Could not unload undefined prefab 0xdf13a0c1 (ruins_bat)
-[00:00:04]: Could not unload undefined prefab 0x1541c9cc (armorruins)
-[00:00:04]: Could not unload undefined prefab 0x3c935451 (eyeturret_item)
-[00:00:04]: Could not unload undefined prefab 0x4374c56c (yellowstaff)
-[00:00:04]: Could not unload undefined prefab 0xcf1626 (rabbithouse)
-[00:00:04]: Could not unload undefined prefab 0x1aa31ec4 (rabbithouse_placer)
-[00:00:04]: Could not unload undefined prefab 0xe474f23c (armormarble)
-[00:00:04]: Could not unload undefined prefab 0x46094f1b (beefalohat)
-[00:00:04]: Could not unload undefined prefab 0xe8f381a1 (turf_checkerfloor)
-[00:00:04]: Could not unload undefined prefab 0x5e02cffb (saltlick)
-[00:00:04]: Could not unload undefined prefab 0x5ddc09af (saltlick_placer)
-[00:00:04]: Could not unload undefined prefab 0x19c004b2 (pighouse)
-[00:00:04]: Could not unload undefined prefab 0x469fe538 (pighouse_placer)
-[00:00:04]: Could not unload undefined prefab 0xb1591875 (greenamulet)
-[00:00:04]: Could not unload undefined prefab 0x1153dbb9 (pottedfern)
-[00:00:04]: Could not unload undefined prefab 0xf2102a71 (pottedfern_placer)
-[00:00:04]: Could not unload undefined prefab 0x68ba7102 (researchlab4)
-[00:00:04]: Could not unload undefined prefab 0x79aa04e8 (researchlab4_placer)
-[00:00:04]: Could not unload undefined prefab 0xa8b25abc (wall_ruins_item)
-[00:00:04]: Could not unload undefined prefab 0xe5071541 (nightmare_timepiece)
-[00:00:04]: Could not unload undefined prefab 0x2e54b535 (cane)
-[00:00:04]: Could not unload undefined prefab 0x21bf03b1 (thulecite)
-[00:00:04]: Could not unload undefined prefab 0x539e9e8a (trunkvest_summer)
-[00:00:04]: Could not unload undefined prefab 0xa8651fd0 (saddle_war)
-[00:00:04]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
-[00:00:04]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
-[00:00:04]: Could not unload undefined prefab 0x9a0ed246 (yellowamulet)
-[00:00:04]: Could not unload undefined prefab 0x651e3e9e (eyebrellahat)
-[00:00:04]: Could not unload undefined prefab 0x3ede96f8 (nightstick)
-[00:00:04]: Could not unload undefined prefab 0xa6b98890 (beargervest)
-[00:00:04]: Could not unload undefined prefab 0x39311b4d (grass_umbrella)
-[00:00:04]: Could not unload undefined prefab 0xd2c60301 (dragonflychest)
-[00:00:04]: Could not unload undefined prefab 0xa72c4129 (dragonflychest_placer)
-[00:00:04]: Could not unload undefined prefab 0xd3671c87 (rainhat)
-[00:00:04]: Could not unload undefined prefab 0xb4e674c6 (hawaiianshirt)
-[00:00:04]: Could not unload undefined prefab 0x8a2d55ba (catcoonhat)
-[00:00:04]: Could not unload undefined prefab 0x4116c653 (raincoat)
-[00:00:04]: Could not unload undefined prefab 0x7fceff10 (featherfan)
-[00:00:04]: Could not unload undefined prefab 0xff7a976 (staff_tornado)
-[00:00:04]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
-[00:00:04]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
-[00:00:04]: Could not unload undefined prefab 0xc22935e4 (icepack)
-[00:00:04]: Could not unload undefined prefab 0x4058bc0 (molehat)
-[00:00:04]: Could not unload undefined prefab 0x1c42203 (bell)
-[00:00:04]: Could not unload undefined prefab 0x4aeb6641 (armordragonfly)
-[00:00:04]: Could not unload undefined prefab 0x14e47079 (turf_snakeskinfloor)
-[00:00:04]: Could not unload undefined prefab 0xca1efe0f (sandbagsmall_item)
-[00:00:04]: Could not unload undefined prefab 0xfef6177c (seatrap)
-[00:00:04]: Could not unload undefined prefab 0xa94020c5 (thatchpack)
-[00:00:04]: Could not unload undefined prefab 0x30d2b33d (primeapebarrel)
-[00:00:04]: Could not unload undefined prefab 0x807939ed (primeapebarrel_placer)
-[00:00:04]: Could not unload undefined prefab 0x9a4001b3 (sand_castle)
-[00:00:04]: Could not unload undefined prefab 0x3f43364e (sandcastle_placer)
-[00:00:04]: Could not unload undefined prefab 0x2a492c1d (aerodynamichat)
-[00:00:04]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
-[00:00:04]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
-[00:00:04]: Could not unload undefined prefab 0x9a81add (buoy)
-[00:00:04]: Could not unload undefined prefab 0x95f72a4d (buoy_placer)
-[00:00:04]: Could not unload undefined prefab 0x875750ea (turf_road)
-[00:00:04]: Could not unload undefined prefab 0x621669c0 (messagebottleempty)
-[00:00:04]: Could not unload undefined prefab 0x55b903ec (armorcactus)
-[00:00:04]: Could not unload undefined prefab 0xb04412f0 (limestone)
-[00:00:04]: Could not unload undefined prefab 0xa3a1ee36 (wildborehouse)
-[00:00:04]: Could not unload undefined prefab 0xe66562b4 (wildborehouse_placer)
-[00:00:04]: Could not unload undefined prefab 0xc1fc7553 (obsidianaxe)
-[00:00:04]: Could not unload undefined prefab 0x72436f38 (doydoynest)
-[00:00:04]: Could not unload undefined prefab 0x92390532 (doydoynest_placer)
-[00:00:04]: Could not unload undefined prefab 0x544a99a4 (ballphinhouse)
-[00:00:04]: Could not unload undefined prefab 0xbf1257c6 (ballphinhouse_placer)
-[00:00:04]: Could not unload undefined prefab 0x341774ab (ice)
-[00:00:04]: Could not unload undefined prefab 0x8298457d (tarlamp)
-[00:00:04]: Could not unload undefined prefab 0xbbc2b637 (wall_limestone_item)
-[00:00:04]: Could not unload undefined prefab 0xabf27d93 (brainjellyhat)
-[00:00:04]: Could not unload undefined prefab 0x879e93b8 (palmleaf_hut)
-[00:00:04]: Could not unload undefined prefab 0x71f5c0b2 (palmleaf_hut_placer)
-[00:00:04]: Could not unload undefined prefab 0xa125dcf0 (wind_conch)
-[00:00:04]: Could not unload undefined prefab 0x76466fb2 (oxhat)
-[00:00:04]: Could not unload undefined prefab 0x5097886f (tropicalfan)
-[00:00:04]: Could not unload undefined prefab 0x60fc588a (chiminea)
-[00:00:04]: Could not unload undefined prefab 0x3bf2cb60 (chiminea_placer)
-[00:00:04]: Could not unload undefined prefab 0x68ba7103 (researchlab5)
-[00:00:04]: Could not unload undefined prefab 0x1cbbb6a7 (researchlab5_placer)
-[00:00:04]: Could not unload undefined prefab 0xe832ee7d (raft)
-[00:00:04]: Could not unload undefined prefab 0x897caead (raft_placer)
-[00:00:04]: Could not unload undefined prefab 0x33a7f0a1 (lograft)
-[00:00:04]: Could not unload undefined prefab 0xcca82b89 (lograft_placer)
-[00:00:04]: Could not unload undefined prefab 0x7ca101d3 (dragoonden)
-[00:00:04]: Could not unload undefined prefab 0x6db191d7 (dragoonden_placer)
-[00:00:04]: Could not unload undefined prefab 0xc2a00ca (waterchest)
-[00:00:04]: Could not unload undefined prefab 0x70979320 (waterchest_placer)
-[00:00:04]: Could not unload undefined prefab 0x5956e2a2 (piratehat)
-[00:00:04]: Could not unload undefined prefab 0x1b91a956 (blowdart_poison)
-[00:00:04]: Could not unload undefined prefab 0x68c8d9d7 (captainhat)
-[00:00:04]: Could not unload undefined prefab 0x811c1db3 (palmleaf_umbrella)
-[00:00:04]: Could not unload undefined prefab 0x703741a0 (bottlelantern)
-[00:00:04]: Could not unload undefined prefab 0x70660d69 (boatrepairkit)
-[00:00:04]: Could not unload undefined prefab 0xc8123fa5 (seasack)
-[00:00:04]: Could not unload undefined prefab 0xc2924a42 (gashat)
-[00:00:04]: Could not unload undefined prefab 0x79ad5092 (monkeyball)
-[00:00:04]: Could not unload undefined prefab 0x1a6c6f45 (blubbersuit)
-[00:00:04]: Could not unload undefined prefab 0xd74b6154 (goldenmachete)
-[00:00:04]: Could not unload undefined prefab 0xadce2aa0 (armorseashell)
-[00:00:04]: Could not unload undefined prefab 0xe649db6f (armouredboat)
-[00:00:04]: Could not unload undefined prefab 0xc87cc93b (armouredboat_placer)
-[00:00:04]: Could not unload undefined prefab 0x474b8c6e (spear_poison)
-[00:00:04]: Could not unload undefined prefab 0x3b08494a (obsidianfirepit)
-[00:00:04]: Could not unload undefined prefab 0x69102aa0 (obsidianfirepit_placer)
-[00:00:04]: Could not unload undefined prefab 0xf4762b9d (machete)
-[00:00:04]: Could not unload undefined prefab 0xe9ed9582 (sail_stick)
-[00:00:04]: Could not unload undefined prefab 0xe5b46d47 (obsidiancoconade)
-[00:00:04]: Could not unload undefined prefab 0xcebbb0da (armorobsidian)
-[00:00:04]: Could not unload undefined prefab 0x3059686e (volcanostaff)
-[00:00:04]: Could not unload undefined prefab 0x29d05021 (spear_obsidian)
-[00:00:04]: Could not unload undefined prefab 0x8d14c757 (cutlass)
-[00:00:04]: Could not unload undefined prefab 0xf02cfe22 (obsidianmachete)
-[00:00:04]: Could not unload undefined prefab 0x8959b28a (sea_yard)
-[00:00:04]: Could not unload undefined prefab 0xded2f160 (sea_yard_placer)
-[00:00:04]: Could not unload undefined prefab 0x144395a5 (trawlnet)
-[00:00:04]: Could not unload undefined prefab 0xbd48db8a (tar_extractor)
-[00:00:04]: Could not unload undefined prefab 0xb29b8860 (tar_extractor_placer)
-[00:00:04]: Could not unload undefined prefab 0xbb660aa6 (spear_launcher)
-[00:00:04]: Could not unload undefined prefab 0xe86f4f8f (supertelescope)
-[00:00:04]: Could not unload undefined prefab 0xeeb5180e (snakeskinsail)
-[00:00:04]: Could not unload undefined prefab 0x15c5371d (armor_snakeskin)
-[00:00:04]: Could not unload undefined prefab 0xf9183b8a (armor_lifejacket)
-[00:00:04]: Could not unload undefined prefab 0x9260274c (nubbin)
-[00:00:04]: Could not unload undefined prefab 0x62386bc8 (shipwrecked_exit)
-[00:00:04]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
-[00:00:04]: Could not unload undefined prefab 0x3e63128a (ox_flute)
-[00:00:04]: Could not unload undefined prefab 0x4715747a (sea_chiminea)
-[00:00:04]: Could not unload undefined prefab 0xefef9370 (sea_chiminea_placer)
-[00:00:04]: Could not unload undefined prefab 0x4d41beb9 (wall_enforcedlimestone_item)
-[00:00:04]: Could not unload undefined prefab 0xc4c93c5d (boatcannon)
-[00:00:04]: Could not unload undefined prefab 0xa715d03d (boat_torch)
-[00:00:04]: Could not unload undefined prefab 0xe2fc99b0 (ironwind)
-[00:00:04]: Could not unload undefined prefab 0xcfd45dd4 (feathersail)
-[00:00:04]: Could not unload undefined prefab 0x5e849cb (clothsail)
-[00:00:04]: Could not unload undefined prefab 0x24bb7bad (quackendrill)
-[00:00:04]: Could not unload undefined prefab 0x16bcbff1 (sail)
-[00:00:04]: Could not unload undefined prefab 0xeee6ebd (encrustedboat)
-[00:00:04]: Could not unload undefined prefab 0x574d9e6d (encrustedboat_placer)
-[00:00:04]: Could not unload undefined prefab 0x15ad0ae7 (boat_lantern)
-[00:00:04]: Could not unload undefined prefab 0x43f6355e (snakeskinhat)
-[00:00:04]: Could not unload undefined prefab 0x31c5155c (cargoboat)
-[00:00:04]: Could not unload undefined prefab 0xc36de0e (cargoboat_placer)
-[00:00:04]: Could not unload undefined prefab 0xd21d2fd2 (tarsuit)
-[00:00:04]: Could not unload undefined prefab 0x95e2439a (rowboat)
-[00:00:04]: Could not unload undefined prefab 0x77133c50 (rowboat_placer)
-[00:00:04]: Could not unload undefined prefab 0x2478ab1d (fish_farm)
-[00:00:04]: Could not unload undefined prefab 0x1f8f0a0d (fish_farm_placer)
-[00:00:04]: Could not unload undefined prefab 0x67e2ab44 (armor_windbreaker)
-[00:00:04]: Could not unload undefined prefab 0xae0991e0 (mussel_stick)
-[00:00:04]: Could not unload undefined prefab 0x362da119 (icemaker)
-[00:00:04]: Could not unload undefined prefab 0x3d61cd11 (icemaker_placer)
-[00:00:04]: Could not unload undefined prefab 0xf20956c9 (double_umbrellahat)
-[00:00:04]: Could not unload undefined prefab 0xb4e674c6 (hawaiianshirt)
-[00:00:04]: Could not unload undefined prefab 0x4ed979d1 (mussel_bed)
-[00:00:04]: Could not unload undefined prefab 0xcfae714a (telescope)
-[00:00:04]: Could not unload undefined prefab 0xe3844d0e (quackeringram)
-[00:00:04]: Could not unload undefined prefab 0x310f6e91 (armorlimestone)
-[00:00:04]: Could not unload undefined prefab 0x21319e8c (coconade)
-[00:00:04]: Could not unload undefined prefab 0x12c13ebb (antivenom)
-[00:00:04]: Could not unload undefined prefab 0xa818ae4d (shark_teethhat)
-[00:00:04]: Could not unload undefined prefab 0xe55c027f (piratihatitator)
-[00:00:04]: Could not unload undefined prefab 0x6c19fe2b (piratihatitator_placer)
-[00:00:04]: Could not unload undefined prefab 0x33ab6997 (hud)
-[00:00:04]: Could not unload undefined prefab 0x3364203d (forest)
-[00:00:04]: Could not unload undefined prefab 0x2e5cb72d (cave)
-[00:00:04]: Could not unload undefined prefab 0x48fc3ce3 (porkland)
-[00:00:04]: Could not unload undefined prefab 0x7c61e1f5 (shipwrecked)
-[00:00:04]: Could not unload undefined prefab 0xa552d992 (volcanolevel)
-[00:00:04]: Could not unload undefined prefab 0x40b82ff2 (maxwell)
-[00:00:04]: Could not unload undefined prefab 0xbddda476 (fire)
-[00:00:04]: Could not unload undefined prefab 0x1078732c (character_fire)
-[00:00:04]: Could not unload undefined prefab 0x427b5b39 (shatter)
-[00:00:04]: scripts/gamelogic.lua(134,1) 	Unload BE done	
-[00:00:04]: scripts/dlcsupport.lua(27,1) Load scripts/DLC001_prefab_files	
-[00:00:04]: scripts/dlcsupport.lua(27,1) Load scripts/DLC002_prefab_files	
-[00:00:06]: HttpClientWriteCallback (0x051DF628, 1, 60, 0x0781F89C)
-[00:00:06]: HttpClientWriteCallback READ 60 (60 total)
-[00:00:08]: scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
-[00:00:08]: scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
-[00:00:08]: scripts/mods.lua(296,1) Mod: workshop-249713554 (BackPackPlus)	Registering prefabs	
-[00:00:08]: scripts/mods.lua(319,1) Mod: workshop-249713554 (BackPackPlus)	  Registering default mod prefab	
-[00:00:08]: scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
-[00:00:08]: scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
-[00:00:09]: scripts/gamelogic.lua(146,1) 	Load FE	
-[00:00:09]: scripts/gamelogic.lua(150,1) 	Load FE: done	
-[00:00:09]: SimLuaProxy::QueryServer()
-[00:00:09]: scripts/modindex.lua(77,1) ModIndex: Load sequence finished successfully.
-	
-[00:00:09]: Reset() returning
-[00:00:09]: QueryServerComplete no callback
-[00:00:09]: HttpClientWriteCallback (0x051DF5A4, 1, 2048, 0x0781F89C)
-[00:00:09]: HttpClientWriteCallback READ 2048 (2048 total)
-[00:00:09]: HttpClientWriteCallback (0x051DF628, 1, 60, 0x0781F89C)
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: screecher does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-170030148 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-188251898 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-249713554 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-874857181 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:05]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+[00:00:05]: scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+[00:00:05]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-249713554	
+[00:00:05]: scripts/mods.lua(179,1) Loading mod: workshop-249713554 (BackPackPlus)	
+[00:00:05]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+[00:00:05]: scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:05]: scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modworldgenmain.lua	
+[00:00:05]: scripts/mods.lua(214,1) Mod: workshop-249713554 (BackPackPlus)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modmain.lua	
+[00:00:05]: ../mods/workshop-249713554/modmain.lua(29,1) BackPackPlus : Hero In the Dark is not detected	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+[00:00:05]: scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:09]: scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	119	
+[00:00:09]: scripts/playerprofile.lua(642,1) loaded profile	
+[00:00:09]: scripts/playerprofile.lua(711,1) bloom_enabled	false	
+[00:00:09]: DEVICE CAP 1587308754
+[00:00:09]: scripts/saveindex.lua(103,1) Attempting to load save file saveindex	
+[00:00:09]: scripts/saveindex.lua(112,1) loaded saveindex	
+[00:00:09]: scripts/gamelogic.lua(1457,1) OnFilesLoaded()	
+[00:00:09]: scripts/gamelogic.lua(1446,1) OnUpdatePurchaseStateComplete	
+[00:00:09]: scripts/gamelogic.lua(131,1) 	Unload BE	
+[00:00:09]: Could not unload undefined prefab 0x303bfdce (axe)
+[00:00:09]: Could not unload undefined prefab 0xc78d9876 (siestahut)
+[00:00:09]: Could not unload undefined prefab 0xb22fa874 (siestahut_placer)
+[00:00:09]: Could not unload undefined prefab 0xce5a342e (firesuppressor)
+[00:00:09]: Could not unload undefined prefab 0xbbba0ebc (firesuppressor_placer)
+[00:00:09]: Could not unload undefined prefab 0xe2bfa46 (tophat)
+[00:00:09]: Could not unload undefined prefab 0x9a6718eb (resurrectionstatue)
+[00:00:09]: Could not unload undefined prefab 0x6b0c64bf (resurrectionstatue_placer)
+[00:00:09]: Could not unload undefined prefab 0xdfb37276 (telestaff)
+[00:00:09]: Could not unload undefined prefab 0xba3ae90 (featherpencil)
+[00:00:09]: Could not unload undefined prefab 0x3f6c9ebb (diviningrod)
+[00:00:09]: Could not unload undefined prefab 0xefa57cea (bandage)
+[00:00:09]: Could not unload undefined prefab 0xde4bc7e7 (wall_hay_item)
+[00:00:09]: Could not unload undefined prefab 0xe51acd32 (lightning_rod)
+[00:00:09]: Could not unload undefined prefab 0x947bfcb8 (lightning_rod_placer)
+[00:00:09]: Could not unload undefined prefab 0xb1fa364d (pickaxe)
+[00:00:09]: Could not unload undefined prefab 0x34fb4f82 (pitchfork)
+[00:00:09]: Could not unload undefined prefab 0x18f754c1 (fence_item)
+[00:00:09]: Could not unload undefined prefab 0x3f5176c5 (firepit)
+[00:00:09]: Could not unload undefined prefab 0x8a462465 (firepit_placer)
+[00:00:09]: Could not unload undefined prefab 0xe87e06c0 (icebox)
+[00:00:09]: Could not unload undefined prefab 0xf2bd1baa (icebox_placer)
+[00:00:09]: Could not unload undefined prefab 0xadfdb7ae (armor_sanity)
+[00:00:09]: Could not unload undefined prefab 0x9a66a945 (fabric)
+[00:00:09]: Could not unload undefined prefab 0x76d26529 (bugnet)
+[00:00:09]: Could not unload undefined prefab 0x5ce426c4 (blowdart_fire)
+[00:00:09]: Could not unload undefined prefab 0x1c48b877 (campfire)
+[00:00:09]: Could not unload undefined prefab 0xdfe3a33 (campfire_placer)
+[00:00:09]: Could not unload undefined prefab 0xa14b3e59 (fence_gate_item)
+[00:00:09]: Could not unload undefined prefab 0x4740cff7 (tent)
+[00:00:09]: Could not unload undefined prefab 0xb4d742b3 (tent_placer)
+[00:00:09]: Could not unload undefined prefab 0x10473739 (spear)
+[00:00:09]: Could not unload undefined prefab 0x8d44bbad (cookpot)
+[00:00:09]: Could not unload undefined prefab 0x30d2f57d (cookpot_placer)
+[00:00:09]: Could not unload undefined prefab 0xa1e54a85 (goldenaxe)
+[00:00:09]: Could not unload undefined prefab 0xe6af29d2 (compass)
+[00:00:09]: Could not unload undefined prefab 0x3ccdbe75 (icestaff)
+[00:00:09]: Could not unload undefined prefab 0x68ba7101 (researchlab3)
+[00:00:09]: Could not unload undefined prefab 0xd6985329 (researchlab3_placer)
+[00:00:09]: Could not unload undefined prefab 0xca16846d (boards)
+[00:00:09]: Could not unload undefined prefab 0xfa14dec6 (birdtrap)
+[00:00:09]: Could not unload undefined prefab 0x7c11af2 (treasurechest)
+[00:00:09]: Could not unload undefined prefab 0xd411bef8 (treasurechest_placer)
+[00:00:09]: Could not unload undefined prefab 0xef21c9f2 (rope)
+[00:00:09]: Could not unload undefined prefab 0x2f0f89cb (reflectivevest)
+[00:00:09]: Could not unload undefined prefab 0xbc429ef3 (bushhat)
+[00:00:09]: Could not unload undefined prefab 0xb981ecda (fast_farmplot)
+[00:00:09]: Could not unload undefined prefab 0x6c77c310 (fast_farmplot_placer)
+[00:00:09]: Could not unload undefined prefab 0xf4eb0943 (shovel)
+[00:00:09]: Could not unload undefined prefab 0xbcfca634 (strawhat)
+[00:00:09]: Could not unload undefined prefab 0x9d92cce (purpleamulet)
+[00:00:09]: Could not unload undefined prefab 0x68370bd6 (trap_teeth)
+[00:00:09]: Could not unload undefined prefab 0x761a1799 (gunpowder)
+[00:00:09]: Could not unload undefined prefab 0x1eee0485 (transistor)
+[00:00:09]: Could not unload undefined prefab 0xeb646050 (icehat)
+[00:00:09]: Could not unload undefined prefab 0xe8561ebe (waxpaper)
+[00:00:09]: Could not unload undefined prefab 0x94cf6c04 (goldenpickaxe)
+[00:00:09]: Could not unload undefined prefab 0x1883478c (bundlewrap)
+[00:00:09]: Could not unload undefined prefab 0x739fbe3c (homesign)
+[00:00:09]: Could not unload undefined prefab 0x33fdbd2e (homesign_placer)
+[00:00:09]: Could not unload undefined prefab 0xec43b9f4 (sewing_kit)
+[00:00:09]: Could not unload undefined prefab 0xd8067599 (beehat)
+[00:00:09]: Could not unload undefined prefab 0x8bbc7f55 (beemine)
+[00:00:09]: Could not unload undefined prefab 0x86860bc2 (boomerang)
+[00:00:09]: Could not unload undefined prefab 0x85181f7c (minerhat)
+[00:00:09]: Could not unload undefined prefab 0x15220700 (backpack)
+[00:00:09]: Could not unload undefined prefab 0xfb180669 (blowdart_sleep)
+[00:00:09]: Could not unload undefined prefab 0x2e264dbc (blowdart_pipe)
+[00:00:09]: Could not unload undefined prefab 0xd5201c09 (beebox)
+[00:00:09]: Could not unload undefined prefab 0x753b7621 (beebox_placer)
+[00:00:09]: Could not unload undefined prefab 0xb918c5fd (fishingrod)
+[00:00:09]: Could not unload undefined prefab 0x111db7ae (footballhat)
+[00:00:09]: Could not unload undefined prefab 0x80cb1e18 (featherhat)
+[00:00:09]: Could not unload undefined prefab 0x5a59f5cc (goldenshovel)
+[00:00:09]: Could not unload undefined prefab 0x3532833e (minisign_item)
+[00:00:09]: Could not unload undefined prefab 0x4d9a964d (trap)
+[00:00:09]: Could not unload undefined prefab 0x4685284 (umbrella)
+[00:00:09]: Could not unload undefined prefab 0x6f21e747 (piggyback)
+[00:00:09]: Could not unload undefined prefab 0xbea16a01 (hambat)
+[00:00:09]: Could not unload undefined prefab 0xacbea762 (fertilizer)
+[00:00:09]: Could not unload undefined prefab 0x3949a42 (meatrack)
+[00:00:09]: Could not unload undefined prefab 0x56340ba8 (meatrack_placer)
+[00:00:09]: Could not unload undefined prefab 0x6dda899f (watermelonhat)
+[00:00:09]: Could not unload undefined prefab 0xa9bd39bd (beeswax)
+[00:00:09]: Could not unload undefined prefab 0xfbaefa0e (rainometer)
+[00:00:09]: Could not unload undefined prefab 0xeea990dc (rainometer_placer)
+[00:00:09]: Could not unload undefined prefab 0x41ba89b5 (nightmarefuel)
+[00:00:09]: Could not unload undefined prefab 0x3cb06493 (healingsalve)
+[00:00:09]: Could not unload undefined prefab 0xd3c23856 (goldnugget)
+[00:00:09]: Could not unload undefined prefab 0x75370b6 (papyrus)
+[00:00:09]: Could not unload undefined prefab 0xcceee6c3 (cutstone)
+[00:00:09]: Could not unload undefined prefab 0x89c20b1b (telebase)
+[00:00:09]: Could not unload undefined prefab 0x868a468f (telebase_placer)
+[00:00:09]: Could not unload undefined prefab 0xe5936c6a (firestaff)
+[00:00:09]: Could not unload undefined prefab 0x7f2d088c (armorwood)
+[00:00:09]: Could not unload undefined prefab 0xc3bf310c (blueamulet)
+[00:00:09]: Could not unload undefined prefab 0x1cd9e60e (razor)
+[00:00:09]: Could not unload undefined prefab 0xcd7669e5 (nightsword)
+[00:00:09]: Could not unload undefined prefab 0x62a5e7fe (nightlight)
+[00:00:09]: Could not unload undefined prefab 0x185806ec (nightlight_placer)
+[00:00:09]: Could not unload undefined prefab 0x92ccc001 (coldfirepit)
+[00:00:09]: Could not unload undefined prefab 0x21e04429 (coldfirepit_placer)
+[00:00:09]: Could not unload undefined prefab 0xb6201ac9 (onemanband)
+[00:00:09]: Could not unload undefined prefab 0xf0330963 (panflute)
+[00:00:09]: Could not unload undefined prefab 0x378bda50 (wall_wood_item)
+[00:00:09]: Could not unload undefined prefab 0xda1f7edf (winterometer)
+[00:00:09]: Could not unload undefined prefab 0x955229cb (winterometer_placer)
+[00:00:09]: Could not unload undefined prefab 0xcba65752 (amulet)
+[00:00:09]: Could not unload undefined prefab 0x38967bb2 (researchlab)
+[00:00:09]: Could not unload undefined prefab 0x77e9ae38 (researchlab_placer)
+[00:00:09]: Could not unload undefined prefab 0xcad92460 (flowerhat)
+[00:00:09]: Could not unload undefined prefab 0x68ba7100 (researchlab2)
+[00:00:09]: Could not unload undefined prefab 0x3386a16a (researchlab2_placer)
+[00:00:09]: Could not unload undefined prefab 0xdac7fbf5 (birdcage)
+[00:00:09]: Could not unload undefined prefab 0xe1f9b335 (birdcage_placer)
+[00:00:09]: Could not unload undefined prefab 0x8d60ee3a (coldfire)
+[00:00:09]: Could not unload undefined prefab 0xe72d29b0 (coldfire_placer)
+[00:00:09]: Could not unload undefined prefab 0x263bc4d5 (slow_farmplot)
+[00:00:09]: Could not unload undefined prefab 0x321f7255 (slow_farmplot_placer)
+[00:00:09]: Could not unload undefined prefab 0xc4101586 (hammer)
+[00:00:09]: Could not unload undefined prefab 0x2c158f7c (torch)
+[00:00:09]: Could not unload undefined prefab 0x2ae7e3b3 (purplegem)
+[00:00:09]: Could not unload undefined prefab 0x265d1455 (turf_woodfloor)
+[00:00:09]: Could not unload undefined prefab 0x3d4d1dc6 (bedroll_straw)
+[00:00:09]: Could not unload undefined prefab 0xdb20fa95 (heatrock)
+[00:00:09]: Could not unload undefined prefab 0x22ec3802 (wall_stone_item)
+[00:00:09]: Could not unload undefined prefab 0xdeb59676 (saddle_basic)
+[00:00:09]: Could not unload undefined prefab 0x36768a92 (orangestaff)
+[00:00:09]: Could not unload undefined prefab 0x4742feaa (saddlehorn)
+[00:00:09]: Could not unload undefined prefab 0x8cc766ef (pumpkin_lantern)
+[00:00:09]: Could not unload undefined prefab 0xfdcabd86 (earmuffshat)
+[00:00:09]: Could not unload undefined prefab 0x7f46d7c0 (batbat)
+[00:00:09]: Could not unload undefined prefab 0x9a99c7b7 (armorgrass)
+[00:00:09]: Could not unload undefined prefab 0xa801bd29 (saddle_race)
+[00:00:09]: Could not unload undefined prefab 0xaf34ecc0 (trunkvest_winter)
+[00:00:09]: Could not unload undefined prefab 0xda17c8e8 (armorslurper)
+[00:00:09]: Could not unload undefined prefab 0x47611d71 (sweatervest)
+[00:00:09]: Could not unload undefined prefab 0x875750ea (turf_road)
+[00:00:09]: Could not unload undefined prefab 0x1daa5ab7 (turf_carpetfloor)
+[00:00:09]: Could not unload undefined prefab 0x2ca456a0 (orangeamulet)
+[00:00:09]: Could not unload undefined prefab 0xcda99af6 (winterhat)
+[00:00:09]: Could not unload undefined prefab 0xf8e41fa9 (bedroll_furry)
+[00:00:09]: Could not unload undefined prefab 0x37c31aa6 (lantern)
+[00:00:09]: Could not unload undefined prefab 0x7fcb037d (greenstaff)
+[00:00:09]: Could not unload undefined prefab 0x3edae42e (multitool_axe_pickaxe)
+[00:00:09]: Could not unload undefined prefab 0xf295861a (brush)
+[00:00:09]: Could not unload undefined prefab 0xe16c07d0 (ruinshat)
+[00:00:09]: Could not unload undefined prefab 0xdf13a0c1 (ruins_bat)
+[00:00:09]: Could not unload undefined prefab 0x1541c9cc (armorruins)
+[00:00:09]: Could not unload undefined prefab 0x3c935451 (eyeturret_item)
+[00:00:09]: Could not unload undefined prefab 0x4374c56c (yellowstaff)
+[00:00:09]: Could not unload undefined prefab 0xcf1626 (rabbithouse)
+[00:00:09]: Could not unload undefined prefab 0x1aa31ec4 (rabbithouse_placer)
+[00:00:09]: Could not unload undefined prefab 0xe474f23c (armormarble)
+[00:00:09]: Could not unload undefined prefab 0x46094f1b (beefalohat)
+[00:00:09]: Could not unload undefined prefab 0xe8f381a1 (turf_checkerfloor)
+[00:00:09]: Could not unload undefined prefab 0x5e02cffb (saltlick)
+[00:00:09]: Could not unload undefined prefab 0x5ddc09af (saltlick_placer)
+[00:00:09]: Could not unload undefined prefab 0x19c004b2 (pighouse)
+[00:00:09]: Could not unload undefined prefab 0x469fe538 (pighouse_placer)
+[00:00:09]: Could not unload undefined prefab 0xb1591875 (greenamulet)
+[00:00:09]: Could not unload undefined prefab 0x1153dbb9 (pottedfern)
+[00:00:09]: Could not unload undefined prefab 0xf2102a71 (pottedfern_placer)
+[00:00:09]: Could not unload undefined prefab 0x68ba7102 (researchlab4)
+[00:00:09]: Could not unload undefined prefab 0x79aa04e8 (researchlab4_placer)
+[00:00:09]: Could not unload undefined prefab 0xa8b25abc (wall_ruins_item)
+[00:00:09]: Could not unload undefined prefab 0xe5071541 (nightmare_timepiece)
+[00:00:09]: Could not unload undefined prefab 0x2e54b535 (cane)
+[00:00:09]: Could not unload undefined prefab 0x21bf03b1 (thulecite)
+[00:00:09]: Could not unload undefined prefab 0x539e9e8a (trunkvest_summer)
+[00:00:09]: Could not unload undefined prefab 0xa8651fd0 (saddle_war)
+[00:00:09]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
+[00:00:09]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+[00:00:09]: Could not unload undefined prefab 0x9a0ed246 (yellowamulet)
+[00:00:09]: Could not unload undefined prefab 0x651e3e9e (eyebrellahat)
+[00:00:09]: Could not unload undefined prefab 0x3ede96f8 (nightstick)
+[00:00:09]: Could not unload undefined prefab 0xa6b98890 (beargervest)
+[00:00:09]: Could not unload undefined prefab 0x39311b4d (grass_umbrella)
+[00:00:09]: Could not unload undefined prefab 0xd2c60301 (dragonflychest)
+[00:00:09]: Could not unload undefined prefab 0xa72c4129 (dragonflychest_placer)
+[00:00:09]: Could not unload undefined prefab 0xd3671c87 (rainhat)
+[00:00:09]: Could not unload undefined prefab 0xb4e674c6 (hawaiianshirt)
+[00:00:09]: Could not unload undefined prefab 0x8a2d55ba (catcoonhat)
+[00:00:09]: Could not unload undefined prefab 0x4116c653 (raincoat)
+[00:00:09]: Could not unload undefined prefab 0x7fceff10 (featherfan)
+[00:00:09]: Could not unload undefined prefab 0xff7a976 (staff_tornado)
+[00:00:09]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
+[00:00:09]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+[00:00:09]: Could not unload undefined prefab 0xc22935e4 (icepack)
+[00:00:09]: Could not unload undefined prefab 0x4058bc0 (molehat)
+[00:00:09]: Could not unload undefined prefab 0x1c42203 (bell)
+[00:00:09]: Could not unload undefined prefab 0x4aeb6641 (armordragonfly)
+[00:00:09]: Could not unload undefined prefab 0x14e47079 (turf_snakeskinfloor)
+[00:00:09]: Could not unload undefined prefab 0xca1efe0f (sandbagsmall_item)
+[00:00:09]: Could not unload undefined prefab 0xfef6177c (seatrap)
+[00:00:09]: Could not unload undefined prefab 0xa94020c5 (thatchpack)
+[00:00:09]: Could not unload undefined prefab 0x30d2b33d (primeapebarrel)
+[00:00:09]: Could not unload undefined prefab 0x807939ed (primeapebarrel_placer)
+[00:00:09]: Could not unload undefined prefab 0x9a4001b3 (sand_castle)
+[00:00:09]: Could not unload undefined prefab 0x3f43364e (sandcastle_placer)
+[00:00:09]: Could not unload undefined prefab 0x2a492c1d (aerodynamichat)
+[00:00:09]: Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
+[00:00:09]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+[00:00:09]: Could not unload undefined prefab 0x9a81add (buoy)
+[00:00:09]: Could not unload undefined prefab 0x95f72a4d (buoy_placer)
+[00:00:09]: Could not unload undefined prefab 0x875750ea (turf_road)
+[00:00:09]: Could not unload undefined prefab 0x621669c0 (messagebottleempty)
+[00:00:09]: Could not unload undefined prefab 0x55b903ec (armorcactus)
+[00:00:09]: Could not unload undefined prefab 0xb04412f0 (limestone)
+[00:00:09]: Could not unload undefined prefab 0xa3a1ee36 (wildborehouse)
+[00:00:09]: Could not unload undefined prefab 0xe66562b4 (wildborehouse_placer)
+[00:00:09]: Could not unload undefined prefab 0xc1fc7553 (obsidianaxe)
+[00:00:09]: Could not unload undefined prefab 0x72436f38 (doydoynest)
+[00:00:09]: Could not unload undefined prefab 0x92390532 (doydoynest_placer)
+[00:00:09]: Could not unload undefined prefab 0x544a99a4 (ballphinhouse)
+[00:00:09]: Could not unload undefined prefab 0xbf1257c6 (ballphinhouse_placer)
+[00:00:09]: Could not unload undefined prefab 0x341774ab (ice)
+[00:00:09]: Could not unload undefined prefab 0x8298457d (tarlamp)
+[00:00:09]: Could not unload undefined prefab 0xbbc2b637 (wall_limestone_item)
+[00:00:09]: Could not unload undefined prefab 0xabf27d93 (brainjellyhat)
+[00:00:09]: Could not unload undefined prefab 0x879e93b8 (palmleaf_hut)
+[00:00:09]: Could not unload undefined prefab 0x71f5c0b2 (palmleaf_hut_placer)
+[00:00:09]: Could not unload undefined prefab 0xa125dcf0 (wind_conch)
+[00:00:09]: Could not unload undefined prefab 0x76466fb2 (oxhat)
+[00:00:09]: Could not unload undefined prefab 0x5097886f (tropicalfan)
+[00:00:09]: Could not unload undefined prefab 0x60fc588a (chiminea)
+[00:00:09]: Could not unload undefined prefab 0x3bf2cb60 (chiminea_placer)
+[00:00:09]: Could not unload undefined prefab 0x68ba7103 (researchlab5)
+[00:00:09]: Could not unload undefined prefab 0x1cbbb6a7 (researchlab5_placer)
+[00:00:09]: Could not unload undefined prefab 0xe832ee7d (raft)
+[00:00:09]: Could not unload undefined prefab 0x897caead (raft_placer)
+[00:00:09]: Could not unload undefined prefab 0x33a7f0a1 (lograft)
+[00:00:09]: Could not unload undefined prefab 0xcca82b89 (lograft_placer)
+[00:00:09]: Could not unload undefined prefab 0x7ca101d3 (dragoonden)
+[00:00:09]: Could not unload undefined prefab 0x6db191d7 (dragoonden_placer)
+[00:00:09]: Could not unload undefined prefab 0xc2a00ca (waterchest)
+[00:00:09]: Could not unload undefined prefab 0x70979320 (waterchest_placer)
+[00:00:09]: Could not unload undefined prefab 0x5956e2a2 (piratehat)
+[00:00:09]: Could not unload undefined prefab 0x1b91a956 (blowdart_poison)
+[00:00:09]: Could not unload undefined prefab 0x68c8d9d7 (captainhat)
+[00:00:09]: Could not unload undefined prefab 0x811c1db3 (palmleaf_umbrella)
+[00:00:09]: Could not unload undefined prefab 0x703741a0 (bottlelantern)
+[00:00:09]: Could not unload undefined prefab 0x70660d69 (boatrepairkit)
+[00:00:09]: Could not unload undefined prefab 0xc8123fa5 (seasack)
+[00:00:09]: Could not unload undefined prefab 0xc2924a42 (gashat)
+[00:00:09]: Could not unload undefined prefab 0x79ad5092 (monkeyball)
+[00:00:09]: Could not unload undefined prefab 0x1a6c6f45 (blubbersuit)
+[00:00:09]: Could not unload undefined prefab 0xd74b6154 (goldenmachete)
+[00:00:09]: Could not unload undefined prefab 0xadce2aa0 (armorseashell)
+[00:00:09]: Could not unload undefined prefab 0xe649db6f (armouredboat)
+[00:00:09]: Could not unload undefined prefab 0xc87cc93b (armouredboat_placer)
+[00:00:09]: Could not unload undefined prefab 0x474b8c6e (spear_poison)
+[00:00:09]: Could not unload undefined prefab 0x3b08494a (obsidianfirepit)
+[00:00:09]: Could not unload undefined prefab 0x69102aa0 (obsidianfirepit_placer)
+[00:00:09]: Could not unload undefined prefab 0xf4762b9d (machete)
+[00:00:09]: Could not unload undefined prefab 0xe9ed9582 (sail_stick)
+[00:00:09]: Could not unload undefined prefab 0xe5b46d47 (obsidiancoconade)
+[00:00:09]: Could not unload undefined prefab 0xcebbb0da (armorobsidian)
+[00:00:09]: Could not unload undefined prefab 0x3059686e (volcanostaff)
+[00:00:09]: Could not unload undefined prefab 0x29d05021 (spear_obsidian)
+[00:00:09]: Could not unload undefined prefab 0x8d14c757 (cutlass)
+[00:00:09]: Could not unload undefined prefab 0xf02cfe22 (obsidianmachete)
+[00:00:09]: Could not unload undefined prefab 0x8959b28a (sea_yard)
+[00:00:09]: Could not unload undefined prefab 0xded2f160 (sea_yard_placer)
+[00:00:09]: Could not unload undefined prefab 0x144395a5 (trawlnet)
+[00:00:09]: Could not unload undefined prefab 0xbd48db8a (tar_extractor)
+[00:00:09]: Could not unload undefined prefab 0xb29b8860 (tar_extractor_placer)
+[00:00:09]: Could not unload undefined prefab 0xbb660aa6 (spear_launcher)
+[00:00:09]: Could not unload undefined prefab 0xe86f4f8f (supertelescope)
+[00:00:09]: Could not unload undefined prefab 0xeeb5180e (snakeskinsail)
+[00:00:09]: Could not unload undefined prefab 0x15c5371d (armor_snakeskin)
+[00:00:09]: Could not unload undefined prefab 0xf9183b8a (armor_lifejacket)
+[00:00:09]: Could not unload undefined prefab 0x9260274c (nubbin)
+[00:00:09]: Could not unload undefined prefab 0x62386bc8 (shipwrecked_exit)
+[00:00:09]: Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+[00:00:09]: Could not unload undefined prefab 0x3e63128a (ox_flute)
+[00:00:09]: Could not unload undefined prefab 0x4715747a (sea_chiminea)
+[00:00:09]: Could not unload undefined prefab 0xefef9370 (sea_chiminea_placer)
+[00:00:09]: Could not unload undefined prefab 0x4d41beb9 (wall_enforcedlimestone_item)
+[00:00:09]: Could not unload undefined prefab 0xc4c93c5d (boatcannon)
+[00:00:09]: Could not unload undefined prefab 0xa715d03d (boat_torch)
+[00:00:09]: Could not unload undefined prefab 0xe2fc99b0 (ironwind)
+[00:00:09]: Could not unload undefined prefab 0xcfd45dd4 (feathersail)
+[00:00:09]: Could not unload undefined prefab 0x5e849cb (clothsail)
+[00:00:09]: Could not unload undefined prefab 0x24bb7bad (quackendrill)
+[00:00:09]: Could not unload undefined prefab 0x16bcbff1 (sail)
+[00:00:09]: Could not unload undefined prefab 0xeee6ebd (encrustedboat)
+[00:00:09]: Could not unload undefined prefab 0x574d9e6d (encrustedboat_placer)
+[00:00:09]: Could not unload undefined prefab 0x15ad0ae7 (boat_lantern)
+[00:00:09]: Could not unload undefined prefab 0x43f6355e (snakeskinhat)
+[00:00:09]: Could not unload undefined prefab 0x31c5155c (cargoboat)
+[00:00:09]: Could not unload undefined prefab 0xc36de0e (cargoboat_placer)
+[00:00:09]: Could not unload undefined prefab 0xd21d2fd2 (tarsuit)
+[00:00:09]: Could not unload undefined prefab 0x95e2439a (rowboat)
+[00:00:09]: Could not unload undefined prefab 0x77133c50 (rowboat_placer)
+[00:00:09]: Could not unload undefined prefab 0x2478ab1d (fish_farm)
+[00:00:09]: Could not unload undefined prefab 0x1f8f0a0d (fish_farm_placer)
+[00:00:09]: Could not unload undefined prefab 0x67e2ab44 (armor_windbreaker)
+[00:00:09]: Could not unload undefined prefab 0xae0991e0 (mussel_stick)
+[00:00:09]: Could not unload undefined prefab 0x362da119 (icemaker)
+[00:00:09]: Could not unload undefined prefab 0x3d61cd11 (icemaker_placer)
+[00:00:09]: Could not unload undefined prefab 0xf20956c9 (double_umbrellahat)
+[00:00:09]: Could not unload undefined prefab 0xb4e674c6 (hawaiianshirt)
+[00:00:09]: Could not unload undefined prefab 0x4ed979d1 (mussel_bed)
+[00:00:09]: Could not unload undefined prefab 0xcfae714a (telescope)
+[00:00:09]: Could not unload undefined prefab 0xe3844d0e (quackeringram)
+[00:00:09]: Could not unload undefined prefab 0x310f6e91 (armorlimestone)
+[00:00:09]: Could not unload undefined prefab 0x21319e8c (coconade)
+[00:00:09]: Could not unload undefined prefab 0x12c13ebb (antivenom)
+[00:00:09]: Could not unload undefined prefab 0xa818ae4d (shark_teethhat)
+[00:00:09]: Could not unload undefined prefab 0xe55c027f (piratihatitator)
+[00:00:09]: Could not unload undefined prefab 0x6c19fe2b (piratihatitator_placer)
+[00:00:09]: Could not unload undefined prefab 0x33ab6997 (hud)
+[00:00:09]: Could not unload undefined prefab 0x3364203d (forest)
+[00:00:09]: Could not unload undefined prefab 0x2e5cb72d (cave)
+[00:00:09]: Could not unload undefined prefab 0x48fc3ce3 (porkland)
+[00:00:09]: Could not unload undefined prefab 0x7c61e1f5 (shipwrecked)
+[00:00:09]: Could not unload undefined prefab 0xa552d992 (volcanolevel)
+[00:00:09]: Could not unload undefined prefab 0x40b82ff2 (maxwell)
+[00:00:09]: Could not unload undefined prefab 0xbddda476 (fire)
+[00:00:09]: Could not unload undefined prefab 0x1078732c (character_fire)
+[00:00:09]: Could not unload undefined prefab 0x427b5b39 (shatter)
+[00:00:09]: scripts/gamelogic.lua(134,1) 	Unload BE done	
+[00:00:09]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
 [00:00:09]: HttpClientWriteCallback READ 60 (60 total)
-[00:00:09]: QueryServerComplete no callback
-[00:00:20]: scripts/screens/slotdetailsscreen.lua(65,1) Loading slot	1	details my DLC is RoG = 	false	 Capy = 	true	 Pork = 	false	
-[00:00:21]: scripts/screens/slotdetailsscreen.lua(358,1) Continue Saved Game	
-[00:00:22]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
-[00:00:22]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-249713554	
-[00:00:22]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
-[00:00:22]: Collecting garbage...
-[00:00:22]: lua_gc took 0.03 seconds
-[00:00:22]: ~SimLuaProxy()
-[00:00:22]: lua_close took 0.03 seconds
-[00:00:22]: ReleaseAll
-[00:00:22]: ReleaseAll Finished
-[00:00:22]: cGame::StartPlaying
-[00:00:22]: LOADING LUA
-[00:00:22]: DoLuaFile scripts/main.lua
-[00:00:22]: DoLuaFile loading buffer scripts/main.lua
-[00:00:22]: scripts/playerprofile.lua(642,1) loaded profile	
-[00:00:22]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:22]: scripts/translator.lua(73,1) Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
-[00:00:23]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:23]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
-[00:00:23]: scripts/main.lua(234,1) running main.lua
+[00:00:09]: scripts/dlcsupport.lua(27,1) Load scripts/DLC001_prefab_files	
+[00:00:09]: scripts/dlcsupport.lua(27,1) Load scripts/DLC002_prefab_files	
+[00:00:19]: scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+[00:00:19]: scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+[00:00:19]: scripts/mods.lua(296,1) Mod: workshop-249713554 (BackPackPlus)	Registering prefabs	
+[00:00:19]: scripts/mods.lua(319,1) Mod: workshop-249713554 (BackPackPlus)	  Registering default mod prefab	
+[00:00:19]: scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+[00:00:19]: scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+[00:00:19]: scripts/gamelogic.lua(146,1) 	Load FE	
+[00:00:20]: scripts/gamelogic.lua(150,1) 	Load FE: done	
+[00:00:20]: SimLuaProxy::QueryServer()
+[00:00:20]: scripts/modindex.lua(77,1) ModIndex: Load sequence finished successfully.
 	
-[00:00:23]: scripts/main.lua(241,1) Sim Seed = 	24000	
-[00:00:23]: scripts/modindex.lua(327,1) loaded modindex	
-[00:00:23]: scripts/modindex.lua(67,1) ModIndex: Beginning normal load sequence.
+[00:00:20]: Reset() returning
+[00:00:20]: QueryServerComplete no callback
+[00:00:21]: HttpClientWriteCallback (0x04BAF25C, 1, 2048, 0x071BF7C0)
+[00:00:21]: HttpClientWriteCallback READ 2048 (2048 total)
+[00:00:22]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:00:22]: HttpClientWriteCallback READ 60 (60 total)
+[00:00:22]: QueryServerComplete no callback
+[00:00:24]: scripts/screens/slotdetailsscreen.lua(65,1) Loading slot	1	details my DLC is RoG = 	false	 Capy = 	true	 Pork = 	false	
+[00:00:25]: scripts/screens/slotdetailsscreen.lua(358,1) Continue Saved Game	
+[00:00:26]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+[00:00:26]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-249713554	
+[00:00:26]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+[00:00:26]: Collecting garbage...
+[00:00:26]: lua_gc took 0.02 seconds
+[00:00:26]: ~SimLuaProxy()
+[00:00:26]: lua_close took 0.03 seconds
+[00:00:26]: ReleaseAll
+[00:00:26]: ReleaseAll Finished
+[00:00:26]: cGame::StartPlaying
+[00:00:26]: LOADING LUA
+[00:00:26]: DoLuaFile scripts/main.lua
+[00:00:26]: DoLuaFile loading buffer scripts/main.lua
+[00:00:26]: scripts/playerprofile.lua(642,1) loaded profile	
+[00:00:26]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:00:26]: scripts/translator.lua(73,1) Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:27]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:00:27]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:00:27]: scripts/main.lua(234,1) running main.lua
 	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: screecher does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-170030148 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-188251898 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-249713554 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-874857181 does not specify if it is compatible with Hamlet. It may not work properly.	
-[00:00:23]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
-[00:00:23]: scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
-[00:00:23]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-249713554	
-[00:00:23]: scripts/mods.lua(179,1) Loading mod: workshop-249713554 (BackPackPlus)	
-[00:00:23]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
-[00:00:23]: scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
-[00:00:23]: scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modworldgenmain.lua	
-[00:00:23]: scripts/mods.lua(214,1) Mod: workshop-249713554 (BackPackPlus)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modmain.lua	
-[00:00:23]: ../mods/workshop-249713554/modmain.lua(29,1) BackPackPlus : Hero In the Dark is not detected	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
-[00:00:23]: scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:23]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
-[00:00:23]: LOADING LUA SUCCESS
-[00:00:24]: scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	119	
-[00:00:24]: scripts/playerprofile.lua(642,1) loaded profile	
-[00:00:24]: scripts/playerprofile.lua(711,1) bloom_enabled	false	
-[00:00:24]: DEVICE CAP 1582107864
-[00:00:24]: scripts/saveindex.lua(103,1) Attempting to load save file saveindex	
-[00:00:24]: scripts/saveindex.lua(112,1) loaded saveindex	
-[00:00:24]: scripts/gamelogic.lua(1457,1) OnFilesLoaded()	
-[00:00:24]: scripts/gamelogic.lua(1446,1) OnUpdatePurchaseStateComplete	
-[00:00:24]: scripts/gamelogic.lua(1348,1) Loading slot 1	
-[00:00:24]: scripts/gamelogic.lua(1350,1) Load Slot: Has World	
-[00:00:24]: scripts/gamelogic.lua(162,1) 	Unload FE	
-[00:00:24]: scripts/gamelogic.lua(164,1) 	Unload FE done	
-[00:00:24]: scripts/dlcsupport.lua(27,1) Load scripts/DLC002_prefab_files	
-[00:00:26]: Could not preload undefined prefab 0x1901065d (DLC0002)
-[00:00:26]: scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
-[00:00:26]: scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
-[00:00:26]: scripts/mods.lua(296,1) Mod: workshop-249713554 (BackPackPlus)	Registering prefabs	
-[00:00:26]: scripts/mods.lua(319,1) Mod: workshop-249713554 (BackPackPlus)	  Registering default mod prefab	
-[00:00:26]: scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
-[00:00:26]: scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
-[00:00:26]: scripts/gamelogic.lua(178,1) 	LOAD BE	
-[00:00:30]: Could not preload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:00:30]: Could not preload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:00:33]: Could not preload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:00:33]: Could not preload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:00:33]: Could not preload undefined prefab 0xbaa28801 (cononut_halved)
-[00:00:34]: Could not preload undefined prefab 0xf0533cd6 (area_maxwelllight)
-[00:00:35]: Could not preload undefined prefab 0x48fc3ce3 (porkland)
-[00:00:35]: Could not preload undefined prefab 0xbf4c7aeb (waterseeds)
-[00:00:36]: Could not preload undefined prefab 0x452d925f (babyox)
-[00:00:36]: Could not preload undefined prefab 0xfdea7789 (floater)
-[00:00:37]: Could not preload undefined prefab 0xd0ee4d1c (sandcastle)
+[00:00:27]: scripts/main.lua(241,1) Sim Seed = 	29000	
+[00:00:27]: scripts/modindex.lua(327,1) loaded modindex	
+[00:00:27]: scripts/modindex.lua(67,1) ModIndex: Beginning normal load sequence.
+	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: screecher does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-170030148 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-188251898 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-249713554 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-874857181 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:00:27]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+[00:00:27]: scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+[00:00:27]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-249713554	
+[00:00:27]: scripts/mods.lua(179,1) Loading mod: workshop-249713554 (BackPackPlus)	
+[00:00:27]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+[00:00:27]: scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+[00:00:27]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:27]: scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:27]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+[00:00:28]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modworldgenmain.lua	
+[00:00:28]: scripts/mods.lua(214,1) Mod: workshop-249713554 (BackPackPlus)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modmain.lua	
+[00:00:28]: ../mods/workshop-249713554/modmain.lua(29,1) BackPackPlus : Hero In the Dark is not detected	
+[00:00:28]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+[00:00:28]: scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+[00:00:28]: LOADING LUA SUCCESS
+[00:00:28]: scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	119	
+[00:00:28]: scripts/playerprofile.lua(642,1) loaded profile	
+[00:00:28]: scripts/playerprofile.lua(711,1) bloom_enabled	false	
+[00:00:28]: DEVICE CAP 1587308773
+[00:00:28]: scripts/saveindex.lua(103,1) Attempting to load save file saveindex	
+[00:00:28]: scripts/saveindex.lua(112,1) loaded saveindex	
+[00:00:28]: scripts/gamelogic.lua(1457,1) OnFilesLoaded()	
+[00:00:28]: scripts/gamelogic.lua(1446,1) OnUpdatePurchaseStateComplete	
+[00:00:28]: scripts/gamelogic.lua(1348,1) Loading slot 1	
+[00:00:28]: scripts/gamelogic.lua(1350,1) Load Slot: Has World	
+[00:00:28]: scripts/gamelogic.lua(162,1) 	Unload FE	
+[00:00:28]: scripts/gamelogic.lua(164,1) 	Unload FE done	
+[00:00:28]: scripts/dlcsupport.lua(27,1) Load scripts/DLC002_prefab_files	
+[00:00:30]: Could not preload undefined prefab 0x1901065d (DLC0002)
+[00:00:30]: scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+[00:00:30]: scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+[00:00:30]: scripts/mods.lua(296,1) Mod: workshop-249713554 (BackPackPlus)	Registering prefabs	
+[00:00:30]: scripts/mods.lua(319,1) Mod: workshop-249713554 (BackPackPlus)	  Registering default mod prefab	
+[00:00:30]: scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+[00:00:30]: scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+[00:00:31]: scripts/gamelogic.lua(178,1) 	LOAD BE	
+[00:00:35]: Could not preload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:00:35]: Could not preload undefined prefab 0x6361dc13 (tropical_fish_cooked)
 [00:00:37]: Could not preload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:00:37]: Could not preload undefined prefab 0x3046954f (turf_lavarock)
-[00:00:37]: Could not preload undefined prefab 0x6170f8be (dropped_net)
-[00:00:37]: Could not preload undefined prefab 0x1901065d (DLC0002)
-[00:00:37]: Could not preload undefined prefab 0x5ecdd9bd (landspawner)
-[00:00:37]: Could not preload undefined prefab 0x223749c9 (player_common)
-[00:00:37]: Could not preload undefined prefab 0x535fab2b (poisonmistparticle)
-[00:00:37]: Could not preload undefined prefab 0x5f41a1f4 (brokenwalls)
-[00:00:37]: Could not preload undefined prefab 0xb92f32f4 (trunk)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
-[00:00:38]: Could not preload undefined prefab 0xc8b38691 (splash_cloud_drop)
-[00:00:39]: Could not preload undefined prefab 0xaf0f7120 (bundle_unwrap)
-[00:00:39]: Could not preload undefined prefab 0xed95c616 (bundle_blueprint)
-[00:00:39]: Could not preload undefined prefab 0x97f0225e (bundle_large)
-[00:00:39]: Could not preload undefined prefab 0x22010b52 (bundle_medium)
-[00:00:39]: Could not preload undefined prefab 0x995e7e0a (bundle_small)
-[00:00:40]: scripts/gamelogic.lua(186,1) 	LOAD BE : done	
-[00:00:41]: MiniMapComponent::AddAtlas(minimap/minimap_data.xml)
-[00:00:41]: scripts/gamelogic.lua(531,1) World info:	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	build_version	276758	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	patcher	table: 46B3BDD8	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	seed	1533310732	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	build_time	17:49:37	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	build_date	349	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	level_id	SURVIVAL_DEFAULT	
-[00:00:41]: scripts/gamelogic.lua(533,1) 	pikofixed	true	
-[00:00:41]: scripts/gamelogic.lua(539,1) Prefab forest	
-[00:00:42]: scripts/gamelogic.lua(567,1) Loading Nav Grid	
-[00:00:42]: scripts/entityscript.lua(290,1) component globalloot already exists in prefab!	
-[00:00:42]: scripts/saveindex.lua(590,1) ClearCurrentResurrectors CB	
-[00:00:42]: scripts/saveindex.lua(670,1) DeregisterResurrector	
-[00:00:42]: scripts/saveindex.lua(686,1) DeregisterResurrector	
-[00:00:42]: scripts/saveindex.lua(670,1) DeregisterResurrector	
-[00:00:42]: scripts/saveindex.lua(686,1) DeregisterResurrector	
-[00:00:43]: scripts/saveindex.lua(386,1) LoadSavedSeasonData CB	
-[00:00:43]: scripts/saveindex.lua(408,1) LoadSavedVolcanoData CB	
-[00:00:43]: scripts/saveindex.lua(247,1) LoadSavedHoundedData CB	
-[00:00:43]: scripts/widgets/bloodover.lua(30,1) update state	
-[00:00:43]: scripts/widgets/bloodover.lua(50,1) turn off	
-[00:00:43]: scripts/widgets/boatover.lua(30,1) update state	
-[00:00:43]: scripts/widgets/boatover.lua(45,1) turn off	
-[00:00:43]: Could not find anim build krampus
-[00:00:43]: Could not find anim [research] in bank [krampus]
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [open]
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [open]
-[00:00:43]: scripts/modindex.lua(77,1) ModIndex: Load sequence finished successfully.
+[00:00:37]: Could not preload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:00:38]: Could not preload undefined prefab 0xbaa28801 (cononut_halved)
+[00:00:38]: Could not preload undefined prefab 0xf0533cd6 (area_maxwelllight)
+[00:00:39]: Could not preload undefined prefab 0x48fc3ce3 (porkland)
+[00:00:40]: Could not preload undefined prefab 0xbf4c7aeb (waterseeds)
+[00:00:41]: Could not preload undefined prefab 0x452d925f (babyox)
+[00:00:41]: Could not preload undefined prefab 0xfdea7789 (floater)
+[00:00:41]: Could not preload undefined prefab 0xd0ee4d1c (sandcastle)
+[00:00:41]: Could not preload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:00:41]: Could not preload undefined prefab 0x3046954f (turf_lavarock)
+[00:00:42]: Could not preload undefined prefab 0x6170f8be (dropped_net)
+[00:00:42]: Could not preload undefined prefab 0x1901065d (DLC0002)
+[00:00:42]: Could not preload undefined prefab 0x5ecdd9bd (landspawner)
+[00:00:42]: Could not preload undefined prefab 0x223749c9 (player_common)
+[00:00:42]: Could not preload undefined prefab 0x535fab2b (poisonmistparticle)
+[00:00:42]: Could not preload undefined prefab 0x5f41a1f4 (brokenwalls)
+[00:00:42]: Could not preload undefined prefab 0xb92f32f4 (trunk)
+[00:00:42]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xb070dece (flotsam_basegame)
+[00:00:43]: Could not preload undefined prefab 0xc8b38691 (splash_cloud_drop)
+[00:00:44]: Could not preload undefined prefab 0xaf0f7120 (bundle_unwrap)
+[00:00:44]: Could not preload undefined prefab 0xed95c616 (bundle_blueprint)
+[00:00:44]: Could not preload undefined prefab 0x97f0225e (bundle_large)
+[00:00:44]: Could not preload undefined prefab 0x22010b52 (bundle_medium)
+[00:00:44]: Could not preload undefined prefab 0x995e7e0a (bundle_small)
+[00:00:45]: scripts/gamelogic.lua(186,1) 	LOAD BE : done	
+[00:00:46]: MiniMapComponent::AddAtlas(minimap/minimap_data.xml)
+[00:00:46]: scripts/gamelogic.lua(531,1) World info:	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	build_version	276758	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	patcher	table: 3FB23930	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	seed	1533310732	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	build_time	17:49:37	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	build_date	349	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	level_id	SURVIVAL_DEFAULT	
+[00:00:46]: scripts/gamelogic.lua(533,1) 	pikofixed	true	
+[00:00:46]: scripts/gamelogic.lua(539,1) Prefab forest	
+[00:00:47]: scripts/gamelogic.lua(567,1) Loading Nav Grid	
+[00:00:47]: scripts/entityscript.lua(290,1) component globalloot already exists in prefab!	
+[00:00:47]: scripts/saveindex.lua(590,1) ClearCurrentResurrectors CB	
+[00:00:47]: scripts/saveindex.lua(670,1) DeregisterResurrector	
+[00:00:47]: scripts/saveindex.lua(686,1) DeregisterResurrector	
+[00:00:47]: scripts/saveindex.lua(670,1) DeregisterResurrector	
+[00:00:47]: scripts/saveindex.lua(686,1) DeregisterResurrector	
+[00:00:48]: scripts/saveindex.lua(386,1) LoadSavedSeasonData CB	
+[00:00:48]: scripts/saveindex.lua(408,1) LoadSavedVolcanoData CB	
+[00:00:48]: scripts/saveindex.lua(247,1) LoadSavedHoundedData CB	
+[00:00:49]: scripts/widgets/bloodover.lua(30,1) update state	
+[00:00:49]: scripts/widgets/bloodover.lua(50,1) turn off	
+[00:00:49]: scripts/widgets/boatover.lua(30,1) update state	
+[00:00:49]: scripts/widgets/boatover.lua(45,1) turn off	
+[00:00:49]: Could not find anim build krampus
+[00:00:49]: Could not find anim [research] in bank [krampus]
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [open]
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [open]
+[00:00:49]: scripts/modindex.lua(77,1) ModIndex: Load sequence finished successfully.
 	
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
-[00:00:43]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
-[00:00:43]: HttpClientWriteCallback (0x051DF628, 1, 60, 0x0781F89C)
-[00:00:43]: HttpClientWriteCallback READ 60 (60 total)
-[00:00:44]: Reset() returning
-[00:00:44]: QueryServerComplete no callback
-[00:00:46]: FMOD Error: Can't find named sound ragtime
-[00:00:46]: FMOD Error: Can't find named sound ragtime
-[00:00:47]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.00, 0.00, 0.00)	
-[00:00:47]: scripts/mainfunctions.lua(192,1) Spawned forest from *already existed*:-1	
-[00:00:47]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.84, 0.00, 0.54)	
-[00:00:47]: scripts/mainfunctions.lua(192,1) Spawned pigman from *already existed*:-1	
-[00:00:48]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.00, 0.00, 0.00)	
-[00:00:48]: scripts/mainfunctions.lua(192,1) Spawned world from *already existed*:-1	
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
+[00:00:49]: cSoundEmitterComponent::PlaySound() already playing sound named [wormhole_closing]
+[00:00:49]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:00:49]: HttpClientWriteCallback READ 60 (60 total)
+[00:00:49]: Reset() returning
+[00:00:49]: QueryServerComplete no callback
+[00:00:51]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.84, 0.00, 0.54)	
+[00:00:51]: scripts/mainfunctions.lua(192,1) Spawned pigman from *already existed*:-1	
+[00:00:51]: FMOD Error: Can't find named sound ragtime
+[00:00:51]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.00, 0.00, 0.00)	
+[00:00:51]: scripts/mainfunctions.lua(192,1) Spawned forest from *already existed*:-1	
+[00:00:51]: FMOD Error: Can't find named sound ragtime
+[00:00:51]: scripts/mainfunctions.lua(203,1) Entity hanging around origin:	(0.00, 0.00, 0.00)	
+[00:00:51]: scripts/mainfunctions.lua(192,1) Spawned world from *already existed*:-1	
+[00:01:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
 [00:01:09]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
 [00:01:09]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:09]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:10]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:19]: scripts/components/inventory.lua(409,1) dropped	spear_wathgrithr	
-[00:01:22]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:22]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:22]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:22]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:22]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:23]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:29]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:29]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:29]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:14]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:15]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:15]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:15]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:24]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:25]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:25]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:25]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
 [00:01:30]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:35]: scripts/components/inventory.lua(409,1) dropped	spear_wathgrithr	
-[00:01:40]: scripts/components/inventory.lua(409,1) dropped	bamboo	
+[00:01:30]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:30]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:30]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
 [00:01:41]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:42]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:42]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:42]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
-[00:01:45]: Could not unload undefined prefab 0x6170f8be (dropped_net)
-[00:01:45]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
-[00:01:45]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
-[00:01:45]: Could not unload undefined prefab 0xed95c616 (bundle_blueprint)
-[00:01:45]: Could not unload undefined prefab 0x97f0225e (bundle_large)
-[00:01:45]: Could not unload undefined prefab 0x22010b52 (bundle_medium)
-[00:01:45]: Could not unload undefined prefab 0x995e7e0a (bundle_small)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0x6170f8be (dropped_net)
-[00:01:45]: Could not unload undefined prefab 0xbf4c7aeb (waterseeds)
-[00:01:45]: Could not unload undefined prefab 0x452d925f (babyox)
-[00:01:45]: Could not unload undefined prefab 0xfdea7789 (floater)
-[00:01:45]: Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0x3046954f (turf_lavarock)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0x1901065d (DLC0002)
-[00:01:45]: Could not unload undefined prefab 0x5ecdd9bd (landspawner)
-[00:01:45]: Could not unload undefined prefab 0x223749c9 (player_common)
-[00:01:45]: Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
-[00:01:45]: Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
-[00:01:45]: Could not unload undefined prefab 0xb92f32f4 (trunk)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
-[00:01:45]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-249713554	
-[00:01:45]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
-[00:01:45]: Collecting garbage...
-[00:01:45]: lua_gc took 0.11 seconds
-[00:01:45]: ~SimLuaProxy()
-[00:01:45]: lua_close took 0.12 seconds
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0x6170f8be (dropped_net)
-[00:01:45]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
-[00:01:45]: Could not unload undefined prefab 0xed95c616 (bundle_blueprint)
-[00:01:45]: Could not unload undefined prefab 0x97f0225e (bundle_large)
-[00:01:45]: Could not unload undefined prefab 0x22010b52 (bundle_medium)
-[00:01:45]: Could not unload undefined prefab 0x995e7e0a (bundle_small)
-[00:01:45]: Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xbf4c7aeb (waterseeds)
-[00:01:45]: Could not unload undefined prefab 0x452d925f (babyox)
-[00:01:45]: Could not unload undefined prefab 0xfdea7789 (floater)
-[00:01:45]: Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
-[00:01:45]: Could not unload undefined prefab 0x3046954f (turf_lavarock)
-[00:01:45]: Could not unload undefined prefab 0x1901065d (DLC0002)
-[00:01:45]: Could not unload undefined prefab 0x5ecdd9bd (landspawner)
-[00:01:45]: Could not unload undefined prefab 0x223749c9 (player_common)
-[00:01:45]: Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
-[00:01:45]: Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
-[00:01:45]: Could not unload undefined prefab 0xb92f32f4 (trunk)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-[00:01:45]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
-[00:01:45]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:46]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:46]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:46]: HttpClient::ClientThread::Main() complete
-[00:01:46]: Shutting down
+[00:01:41]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:41]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:41]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:45]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:46]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:46]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:47]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:47]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:48]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:01:51]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:51]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:52]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:52]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:52]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:58]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:58]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:58]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:01:58]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:04]: cSoundEmitterComponent::PlaySound() already playing sound named [flies]
+[00:02:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:09]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:02:09]: HttpClientWriteCallback READ 60 (60 total)
+[00:02:09]: QueryServerComplete no callback
+[00:02:20]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:02:20]: HttpClientWriteCallback READ 60 (60 total)
+[00:02:20]: QueryServerComplete no callback
+[00:02:20]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:20]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:21]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:21]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:21]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:27]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:27]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:27]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:27]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:37]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:37]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:37]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:38]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:48]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:49]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:49]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:49]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:02:50]: scripts/components/inventory.lua(409,1) dropped	nightmarefuel	
+[00:03:00]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:00]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:00]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:00]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:00]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:08]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:15]: cSoundEmitterComponent::PlaySound() already playing sound named [flies]
+[00:03:19]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:03:19]: HttpClientWriteCallback READ 60 (60 total)
+[00:03:19]: QueryServerComplete no callback
+[00:03:19]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:19]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:19]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:19]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:21]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:03:21]: HttpClientWriteCallback READ 60 (60 total)
+[00:03:21]: QueryServerComplete no callback
+[00:03:28]: scripts/prefabs/player_common.lua(6,1) SANE!	
+[00:03:28]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:03:28]: HttpClientWriteCallback READ 60 (60 total)
+[00:03:28]: QueryServerComplete no callback
+[00:03:33]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:33]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:33]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:33]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:33]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:36]: cSoundEmitterComponent::PlaySound() already playing sound named [flies]
+[00:03:48]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:48]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:48]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:48]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:56]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:56]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:57]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:57]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:03:57]: cSoundEmitterComponent::PlaySound() already playing sound named [flyin]
+[00:04:11]: cSoundEmitterComponent::PlaySound() already playing sound named [flies]
+[00:04:20]: scripts/components/fueled.lua(95,1) CAN ACCEPT FUEL	true	
+[00:05:07]: scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100106 - resurrectionstone	used:false	active:false	
+[00:05:07]: scripts/saveindex.lua(670,1) DeregisterResurrector	
+[00:05:07]: scripts/saveindex.lua(686,1) DeregisterResurrector	
+[00:05:07]: scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100107 - resurrectionstone	used:false	active:false	
+[00:05:07]: scripts/saveindex.lua(670,1) DeregisterResurrector	
+[00:05:07]: scripts/saveindex.lua(686,1) DeregisterResurrector	
+[00:05:07]: scripts/mainfunctions.lua(588,1) Entities saved 	9310	
+[00:05:07]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+[00:05:07]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-249713554	
+[00:05:07]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+[00:05:07]: scripts/mainfunctions.lua(677,1) Saved	survival_1	
+[00:05:07]: Collecting garbage...
+[00:05:07]: lua_gc took 0.09 seconds
+[00:05:07]: ~SimLuaProxy()
+[00:05:07]: Cancelling LuaQueryCallback handle [10]
+[00:05:07]: lua_close took 0.10 seconds
+[00:05:07]: ReleaseAll
+[00:05:08]: ReleaseAll Finished
+[00:05:08]: cGame::StartPlaying
+[00:05:08]: LOADING LUA
+[00:05:08]: DoLuaFile scripts/main.lua
+[00:05:08]: DoLuaFile loading buffer scripts/main.lua
+[00:05:08]: scripts/playerprofile.lua(642,1) loaded profile	
+[00:05:08]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:05:08]: scripts/translator.lua(73,1) Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:05:09]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:05:09]: scripts/playerprofile.lua(372,1) FOUND THE NEW DATA	true	
+[00:05:09]: scripts/main.lua(234,1) running main.lua
+	
+[00:05:09]: scripts/main.lua(241,1) Sim Seed = 	310000	
+[00:05:09]: scripts/modindex.lua(327,1) loaded modindex	
+[00:05:09]: scripts/modindex.lua(67,1) ModIndex: Beginning normal load sequence.
+	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: screecher does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-170030148 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-188251898 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-249713554 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(250,1) WARNING loading modinfo.lua: workshop-874857181 does not specify if it is compatible with Hamlet. It may not work properly.	
+[00:05:09]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+[00:05:09]: scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+[00:05:09]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-249713554	
+[00:05:09]: scripts/mods.lua(179,1) Loading mod: workshop-249713554 (BackPackPlus)	
+[00:05:09]: scripts/modindex.lua(405,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+[00:05:09]: scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+[00:05:09]: scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+[00:05:09]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:05:09]: HttpClientWriteCallback READ 60 (60 total)
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modworldgenmain.lua	
+[00:05:09]: scripts/mods.lua(214,1) Mod: workshop-249713554 (BackPackPlus)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-249713554 (BackPackPlus)	Loading modmain.lua	
+[00:05:09]: ../mods/workshop-249713554/modmain.lua(29,1) BackPackPlus : Hero In the Dark is not detected	
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+[00:05:09]: scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:05:09]: scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+[00:05:09]: LOADING LUA SUCCESS
+[00:05:09]: scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	119	
+[00:05:09]: scripts/playerprofile.lua(642,1) loaded profile	
+[00:05:09]: scripts/playerprofile.lua(711,1) bloom_enabled	false	
+[00:05:09]: DEVICE CAP 1587309054
+[00:05:09]: scripts/saveindex.lua(103,1) Attempting to load save file saveindex	
+[00:05:09]: scripts/saveindex.lua(112,1) loaded saveindex	
+[00:05:09]: scripts/gamelogic.lua(1457,1) OnFilesLoaded()	
+[00:05:09]: scripts/gamelogic.lua(1446,1) OnUpdatePurchaseStateComplete	
+[00:05:09]: scripts/gamelogic.lua(131,1) 	Unload BE	
+[00:05:09]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
+[00:05:09]: Could not unload undefined prefab 0xed95c616 (bundle_blueprint)
+[00:05:09]: Could not unload undefined prefab 0x97f0225e (bundle_large)
+[00:05:09]: Could not unload undefined prefab 0x22010b52 (bundle_medium)
+[00:05:09]: Could not unload undefined prefab 0x995e7e0a (bundle_small)
+[00:05:09]: Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
+[00:05:09]: Could not unload undefined prefab 0x48fc3ce3 (porkland)
+[00:05:09]: Could not unload undefined prefab 0xbf4c7aeb (waterseeds)
+[00:05:09]: Could not unload undefined prefab 0x452d925f (babyox)
+[00:05:09]: Could not unload undefined prefab 0xfdea7789 (floater)
+[00:05:09]: Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
+[00:05:09]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:09]: Could not unload undefined prefab 0x3046954f (turf_lavarock)
+[00:05:09]: Could not unload undefined prefab 0x6170f8be (dropped_net)
+[00:05:09]: Could not unload undefined prefab 0x1901065d (DLC0002)
+[00:05:09]: Could not unload undefined prefab 0x5ecdd9bd (landspawner)
+[00:05:09]: Could not unload undefined prefab 0x223749c9 (player_common)
+[00:05:09]: Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
+[00:05:09]: Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
+[00:05:09]: Could not unload undefined prefab 0xb92f32f4 (trunk)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:09]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:09]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:09]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:09]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:09]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
+[00:05:09]: Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
+[00:05:09]: scripts/gamelogic.lua(134,1) 	Unload BE done	
+[00:05:09]: scripts/dlcsupport.lua(27,1) Load scripts/DLC001_prefab_files	
+[00:05:09]: scripts/dlcsupport.lua(27,1) Load scripts/DLC002_prefab_files	
+[00:05:12]: scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+[00:05:12]: scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+[00:05:12]: scripts/mods.lua(296,1) Mod: workshop-249713554 (BackPackPlus)	Registering prefabs	
+[00:05:12]: scripts/mods.lua(319,1) Mod: workshop-249713554 (BackPackPlus)	  Registering default mod prefab	
+[00:05:12]: scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+[00:05:12]: scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+[00:05:12]: scripts/gamelogic.lua(146,1) 	Load FE	
+[00:05:12]: scripts/gamelogic.lua(150,1) 	Load FE: done	
+[00:05:13]: SimLuaProxy::QueryServer()
+[00:05:13]: scripts/modindex.lua(77,1) ModIndex: Load sequence finished successfully.
+	
+[00:05:13]: Reset() returning
+[00:05:13]: QueryServerComplete for non-existent handle [10] ok, HTTP 200: [{"Error":false,"EventCount":1,"ErrorMsg":"OK","ErrJSON":[]}
+]
+[00:05:13]: [SYSMEM]34% - PH:10721m/16333m PG:7862m/17357m VRT:2805m/4095m XM:0m
+[00:05:13]: [PRCMEM]PWS:1260m WS:337m PPU:641k PU 503k PNU:114k NU:69k PF:315m PPF:1229m
+[00:05:14]: HttpClientWriteCallback (0x04BAF25C, 1, 2048, 0x071BF7C0)
+[00:05:14]: HttpClientWriteCallback READ 2048 (2048 total)
+[00:05:14]: HttpClientWriteCallback (0x04BAF2E0, 1, 60, 0x071BF7C0)
+[00:05:14]: HttpClientWriteCallback READ 60 (60 total)
+[00:05:14]: QueryServerComplete no callback
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0x6170f8be (dropped_net)
+[00:05:17]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
+[00:05:17]: Could not unload undefined prefab 0xed95c616 (bundle_blueprint)
+[00:05:17]: Could not unload undefined prefab 0x97f0225e (bundle_large)
+[00:05:17]: Could not unload undefined prefab 0x22010b52 (bundle_medium)
+[00:05:17]: Could not unload undefined prefab 0x995e7e0a (bundle_small)
+[00:05:17]: Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
+[00:05:17]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:17]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0xbf4c7aeb (waterseeds)
+[00:05:17]: Could not unload undefined prefab 0x452d925f (babyox)
+[00:05:17]: Could not unload undefined prefab 0xfdea7789 (floater)
+[00:05:17]: Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
+[00:05:17]: Could not unload undefined prefab 0x3046954f (turf_lavarock)
+[00:05:17]: Could not unload undefined prefab 0x1901065d (DLC0002)
+[00:05:17]: Could not unload undefined prefab 0x5ecdd9bd (landspawner)
+[00:05:17]: Could not unload undefined prefab 0x223749c9 (player_common)
+[00:05:17]: Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
+[00:05:17]: Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
+[00:05:17]: Could not unload undefined prefab 0xb92f32f4 (trunk)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
+[00:05:17]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:17]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:17]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:17]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
+[00:05:17]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:17]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+[00:05:17]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-249713554	
+[00:05:17]: scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+[00:05:18]: Collecting garbage...
+[00:05:18]: lua_gc took 0.02 seconds
+[00:05:18]: ~SimLuaProxy()
+[00:05:18]: lua_close took 0.03 seconds
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0x6170f8be (dropped_net)
+[00:05:18]: Could not unload undefined prefab 0xbaa28801 (cononut_halved)
+[00:05:18]: Could not unload undefined prefab 0xed95c616 (bundle_blueprint)
+[00:05:18]: Could not unload undefined prefab 0x97f0225e (bundle_large)
+[00:05:18]: Could not unload undefined prefab 0x22010b52 (bundle_medium)
+[00:05:18]: Could not unload undefined prefab 0x995e7e0a (bundle_small)
+[00:05:18]: Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
+[00:05:18]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:18]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0xbf4c7aeb (waterseeds)
+[00:05:18]: Could not unload undefined prefab 0x452d925f (babyox)
+[00:05:18]: Could not unload undefined prefab 0xfdea7789 (floater)
+[00:05:18]: Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
+[00:05:18]: Could not unload undefined prefab 0x3046954f (turf_lavarock)
+[00:05:18]: Could not unload undefined prefab 0x1901065d (DLC0002)
+[00:05:18]: Could not unload undefined prefab 0x5ecdd9bd (landspawner)
+[00:05:18]: Could not unload undefined prefab 0x223749c9 (player_common)
+[00:05:18]: Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
+[00:05:18]: Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
+[00:05:18]: Could not unload undefined prefab 0xb92f32f4 (trunk)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
+[00:05:18]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:18]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:18]: Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
+[00:05:18]: Could not unload undefined prefab 0xaf0f7120 (bundle_unwrap)
+[00:05:18]: Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:05:18]: HttpClient::ClientThread::Main() complete
+[00:05:18]: Shutting down
